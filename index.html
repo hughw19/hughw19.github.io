@@ -1,39 +1,92 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
     <title>He Wang</title>
     <link rel="stylesheet" type="text/css" href="./css/home.css" />
   </head>
   <body>
     <div class="main">
       <div class="main-head">
-        <div class="name">He Wang</div>
-        <div class="list">
-          <div class="list-item"><a href="#news">News</a></div>
-          <div class="list-item"><a href="#publications">Publications</a></div>
-          <div class="list-item"><a href="#awards">Awards</a></div>
-          <div class="list-item"><a href="#teaching">Teaching</a></div>
-          <div class="list-item">
-            <a href="#professional">Professional Service</a>
+        <div class="head-pc">
+          <div class="name">He Wang</div>
+          <div class="list">
+            <div class="list-item"><a href="#news">News</a></div>
+            <div class="list-item">
+              <a href="#publications">Publications</a>
+            </div>
+            <div class="list-item"><a href="#awards">Awards</a></div>
+            <div class="list-item"><a href="#teaching">Teaching</a></div>
+            <div class="list-item">
+              <a href="#professional">Professional Service</a>
+            </div>
+            <div class="list-item">
+              <a href="#opportunities">Opportunities</a>
+            </div>
           </div>
-          <div class="list-item">
-            <a href="#opportunities">Opportunities</a>
+          <div class="menu">
+            <div class="menu-item active">
+              <a href="https://hughw19.github.io">Home</a>
+            </div>
+            <span>/</span>
+            <div class="menu-item">
+              <a href="https://PKU-EPIC.github.io">Lab</a>
+            </div>
           </div>
         </div>
-        <div class="menu">
-          <div class="menu-item active">
-            <a href="https://hughw19.github.io">Home</a>
-          </div>
-          <span>/</span>
-          <div class="menu-item">
-            <a href="https://PKU-EPIC.github.io">Lab</a>
-          </div>
+        <div class="head-phone">
+          <div class="name">He Wang</div>
+          <svg
+            class="menu-phone"
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="19"
+            viewBox="0 0 21 19"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 1.5C0 0.671573 0.671573 0 1.5 0H19.5C20.3284 0 21 0.671573 21 1.5C21 2.32843 20.3284 3 19.5 3H1.5C0.671573 3 0 2.32843 0 1.5ZM0 9.5C0 8.67157 0.671573 8 1.5 8H19.5C20.3284 8 21 8.67157 21 9.5C21 10.3284 20.3284 11 19.5 11H1.5C0.671573 11 0 10.3284 0 9.5ZM1.5 16C0.671573 16 0 16.6716 0 17.5C0 18.3284 0.671573 19 1.5 19H19.5C20.3284 19 21 18.3284 21 17.5C21 16.6716 20.3284 16 19.5 16H1.5Z"
+              fill="#808080"
+            />
+          </svg>
         </div>
       </div>
       <div class="main-content">
         <div class="main-userinfo">
           <div class="info">
-            <img class="lazy-load" data-src="./assets/photo1.png" alt="" />
+            <div>
+              <img
+                class="lazy-load"
+                data-src="./assets/photo1.png"
+                alt=""
+              />
+              <div class="icon-phone">
+                <a
+                  href="https://scholar.google.com/citations?user=roCAWkoAAAAJ&hl=en"
+                  ><img
+                    style="width: 18px; height: 18px"
+                    src="./assets/ic_1.svg"
+                    alt=""
+                /></a>
+                <a href="mailto:hewang@pku.edu.cn"
+                  ><img
+                    style="width: 19px; height: 15px"
+                    src="./assets/ic_4.svg"
+                    alt=""
+                /></a>
+                <a href="https://twitter.com/HughWang19"
+                  ><img
+                    style="width: 19px; height: 16px"
+                    src="./assets/ic_3.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
             <div class="info-right">
               <div class="info-title">Prof.He Wang</div>
               <p>
@@ -109,8 +162,8 @@
         </div>
       </div>
       <div class="main-content" style="padding-bottom: 38px">
-        <div class="main-swiper">
-          <div class="swiper-content" id="videos">
+        <div class="main-swiper" id="videos">
+          <div class="swiper-content">
             <div class="slide-source">
               <a href="https://pku-epic.github.io/ASGrasp/">
                 <video id="video1" autoplay loop muted>
@@ -126,11 +179,6 @@
                 </div>
               </a>
             </div>
-            <script>
-              var video = document.getElementById('video1');
-              var container = document.getElementById('p1');
-              container.style.width = video.offsetWidth - 56 + 'px';
-            </script>
             <div class="slide-source">
               <a href="  https://pku-epic.github.io/DexGraspNet/">
                 <video id="video2" autoplay loop muted>
@@ -148,7 +196,6 @@
             <script>
               var video = document.getElementById('video2');
               var container = document.getElementById('p2');
-              console.log(video.clientWidth, 'video======');
               container.style.width = video.clientWidth - 56 + 'px';
             </script>
             <div class="slide-source">
@@ -169,7 +216,6 @@
             <script>
               var video = document.getElementById('video3');
               var container = document.getElementById('p3');
-              console.log(video.clientWidth, 'video======');
               container.style.width = video.clientWidth - 56 + 'px';
             </script>
             <div class="slide-source">
@@ -187,44 +233,120 @@
               </a>
             </div>
           </div>
+          <div class="swiper-content-phone" id="videos1">
+            <div class="slide-source">
+              <a
+                href="https://oss-cn-beijing.galbot.com/online/blog/tech6-1.mp4"
+              >
+                <img src="./assets/play.png" alt="" class="play" />
+                <video
+                  loop
+                  muted
+                  x5-video-player-type="h5-page"
+                  id="video1"
+                  poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech6.png"
+                >
+                  <source
+                    src="https://oss-cn-beijing.galbot.com/online/blog/tech6-1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </a>
+              <div id="p1">
+                <a href="https://pku-epic.github.io/ASGrasp/"
+                  >Material-agnostic generalized grasping technology, capable of
+                  handling scenes with completely transparent objects with high
+                  success.
+                </a>
+              </div>
+            </div>
+            <div class="slide-source">
+              <a
+                href="https://oss-cn-beijing.galbot.com/online/blog/tech7-1.mp4"
+              >
+                <img src="./assets/play.png" alt="" class="play" />
+                <video
+                  id="video2"
+                  x5-video-player-type="h5-page"
+                  loop
+                  muted
+                  poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech7.png"
+                >
+                  <source
+                    src="https://oss-cn-beijing.galbot.com/online/blog/tech7-1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </a>
+              <div id="p2">
+                <a href="  https://pku-epic.github.io/DexGraspNet/"
+                  >《DexGraspNet》ICRA 2023 Best Manipulation Paper
+                  Nominee，Million-level dexterous hands Dataset.
+                </a>
+              </div>
+            </div>
+            <script>
+              var video = document.getElementById('video2');
+              var container = document.getElementById('p2');
+              container.style.width = video.clientWidth - 56 + 'px';
+            </script>
+            <div class="slide-source">
+              <a
+                href="https://oss-cn-beijing.galbot.com/online/blog/tech2-1.mp4"
+              >
+                <img src="./assets/play.png" alt="" class="play" />
+
+                <video
+                  id="video3"
+                  loop
+                  muted
+                  poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech2.png"
+                >
+                  <source
+                    src="https://oss-cn-beijing.galbot.com/online/blog/tech2-1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </a>
+              <div id="p3">
+                <a href="https://pku-epic.github.io/Open6DOR/">
+                  The world's first open command large model system for object
+                  pick-and-place, capable of controlling object orientation:
+                  Open6DOR.
+                </a>
+              </div>
+            </div>
+            <script>
+              var video = document.getElementById('video3');
+              var container = document.getElementById('p3');
+              container.style.width = video.clientWidth - 56 + 'px';
+            </script>
+            <div class="slide-source">
+              <a
+                href="https://oss-cn-beijing.galbot.com/online/blog/tech3-1.mp4"
+              >
+                <img src="./assets/play.png" alt="" class="play" />
+                <video
+                  muted
+                  loop
+                  poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech3.png"
+                >
+                  <source
+                    src="https://oss-cn-beijing.galbot.com/online/blog/tech3-1.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </a>
+              <div>
+                <a href="https://pku-epic.github.io/NaVid/">
+                  The world's first generalized embodied navigation large model:
+                  NaVid.
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const videosContainer = document.getElementById('videos');
-          const videos = document.querySelectorAll('.video-element');
-
-          // 检查视频是否在可见范围内
-          function checkVisibility(video) {
-            const rect = video.getBoundingClientRect();
-            const containerRect = videosContainer.getBoundingClientRect();
-            return (
-              rect.top >= containerRect.top &&
-              rect.left >= containerRect.left &&
-              rect.bottom <= containerRect.bottom &&
-              rect.right <= containerRect.right
-            );
-          }
-
-          // 控制视频的播放和暂停
-          function controlVideoPlayback() {
-            videos.forEach((video) => {
-              if (checkVisibility(video)) {
-                video.play();
-              } else {
-                video.pause();
-              }
-            });
-          }
-
-          // 初始检查
-          controlVideoPlayback();
-
-          // 滚动事件监听
-          videosContainer.addEventListener('scroll', controlVideoPlayback);
-          window.addEventListener('resize', controlVideoPlayback);
-        });
-      </script>
       <div class="main-content">
         <div id="news" class="main-news">
           <div class="title">NEWS</div>
@@ -2032,9 +2154,106 @@
           </ul>
         </div>
       </div>
+      <div class="modal">
+        <div class="modal-close">
+          <img src="./assets/close.svg" alt="" class="close" />
+        </div>
+        <div class="modal-content">
+          <div class="modal-content-item"><a href="#news">News</a></div>
+          <div class="modal-content-item">
+            <a href="#publications">Publications</a>
+          </div>
+          <div class="modal-content-item"><a href="#awards">Awards</a></div>
+          <div class="modal-content-item"><a href="#teaching">Teaching</a></div>
+          <div class="modal-content-item">
+            <a href="#professional">Professional Service</a>
+          </div>
+          <div class="modal-content-item">
+            <a href="#opportunities">Opportunities</a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-footer-item footer-item-active">
+            <a href="https://hughw19.github.io">Home</a>
+          </div>
+          <span>/</span>
+          <div class="modal-footer-item">
+            <a href="https://PKU-EPIC.github.io">Lab</a>
+          </div>
+        </div>
+      </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript">
+      function onresizeFun() {
+        if (window.innerWidth <= 768) {
+          let width = document.documentElement.clientWidth;
+          // 假设设计稿宽度为750px
+          // 假设已知根元素我们设置为100px（这里设置100方便后续我们好计算）
+          // 动态设置根元素html的fontSize
+          document.documentElement.style.fontSize = 100 * (width / 430) + 'px';
+          $('.head-pc').css('display', 'none');
+          $('.icon').css('display', 'none');
+          $('.swiper-content').css('display', 'none');
+          $('.head-phone').css('display', 'flex');
+          $('.icon-phone').css('display', 'flex');
+          $('.swiper-content-phone').css('display', 'block');
+        } else {
+          $('.head-pc').css('display', 'flex');
+          $('.icon').css('display', 'flex');
+          $('.swiper-content').css('display', 'block');
+          $('.swiper-content-phone').css('display', 'none');
+          $('.head-phone').css('display', 'none');
+          $('.icon-phone').css('display', 'none');
+        }
+        $('.main').css('display', 'block');
+      }
+
+      // pc 视频自动播放
+      function autoPlayVideo() {
+        const videosContainer = document.getElementById('videos');
+        const videos = document.querySelectorAll('video');
+
+        // 检查视频是否在可见范围内
+        function checkVisibility(video) {
+          const rect = video.getBoundingClientRect();
+          const containerRect = videosContainer.getBoundingClientRect();
+          return (
+            rect.top >= containerRect.top &&
+            rect.left >= containerRect.left &&
+            rect.bottom <= containerRect.bottom &&
+            rect.right <= containerRect.right
+          );
+        }
+
+        // 控制视频的播放和暂停
+        function controlVideoPlayback() {
+          videos.forEach((video) => {
+            if (checkVisibility(video)) {
+              video.play();
+            } else {
+              video.pause();
+            }
+          });
+        }
+
+        // 初始检查
+        controlVideoPlayback();
+
+        // 滚动事件监听
+        videosContainer.addEventListener('scroll', controlVideoPlayback);
+        window.addEventListener('resize', controlVideoPlayback);
+      }
+
+      onresizeFun();
+      window.addEventListener('resize', onresizeFun);
+
       document.addEventListener('DOMContentLoaded', function () {
+        // 图片懒加载
         const observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
@@ -2048,7 +2267,30 @@
         document.querySelectorAll('img.lazy-load').forEach((img) => {
           observer.observe(img);
         });
+
+        // 菜单点击事件
+        $('.menu-phone').click(() => {
+          $('.modal').addClass('modal-active');
+          $('body').addClass('noscroll');
+        });
+        $('.modal-close').click(() => {
+          $('.modal').removeClass('modal-active');
+          $('body').removeClass('noscroll');
+        });
+        $('.modal-content-item').click(function () {
+          // Remove the 'item-active' class from all siblings
+          $(this).siblings('.modal-content-item').removeClass('item-active');
+          // Add the 'item-active' class to the clicked element
+          $(this).addClass('item-active');
+          $('.modal').removeClass('modal-active');
+          $('body').removeClass('noscroll');
+        });
+
+        if (window.innerWidth > 768) {
+          autoPlayVideo();
+        }
       });
+
       function hideshow(a, which) {
         console.log(which);
         if (!document.getElementById) return;
