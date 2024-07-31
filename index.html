@@ -27,6 +27,7 @@
               <a href="#opportunities">Opportunities</a>
             </div>
           </div>
+
           <div class="menu">
             <div class="menu-item active">
               <a href="https://hughw19.github.io">Home</a>
@@ -60,11 +61,7 @@
         <div class="main-userinfo">
           <div class="info">
             <div>
-              <img
-                class="lazy-load"
-                src="./assets/photo1.png"
-                alt=""
-              />
+              <img class="lazy-load" src="./assets/photo1.png" alt="" />
               <div class="icon-phone">
                 <a
                   href="https://scholar.google.com/citations?user=roCAWkoAAAAJ&hl=en"
@@ -242,6 +239,7 @@
                 <video
                   loop
                   muted
+                  controlsList="nodownload noPictureInPicture"
                   x5-video-player-type="h5-page"
                   id="video1"
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech6.png"
@@ -270,6 +268,7 @@
                   x5-video-player-type="h5-page"
                   loop
                   muted
+                  controlsList="nodownload noPictureInPicture"
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech7.png"
                 >
                   <source
@@ -299,6 +298,7 @@
                 <video
                   id="video3"
                   loop
+                  controlsList="nodownload noPictureInPicture"
                   muted
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech2.png"
                 >
@@ -328,6 +328,7 @@
                 <img src="./assets/play.png" alt="" class="play" />
                 <video
                   muted
+                  controlsList="nodownload noPictureInPicture"
                   loop
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech3.png"
                 >
@@ -2159,16 +2160,22 @@
           <img src="./assets/close.svg" alt="" class="close" />
         </div>
         <div class="modal-content">
-          <div class="modal-content-item"><a href="#news">News</a></div>
-          <div class="modal-content-item">
+          <div class="modal-content-item" id="link1">
+            <a href="#news">News</a>
+          </div>
+          <div class="modal-content-item" id="link2">
             <a href="#publications">Publications</a>
           </div>
-          <div class="modal-content-item"><a href="#awards">Awards</a></div>
-          <div class="modal-content-item"><a href="#teaching">Teaching</a></div>
-          <div class="modal-content-item">
+          <div class="modal-content-item" id="link3">
+            <a href="#awards">Awards</a>
+          </div>
+          <div class="modal-content-item" id="link4">
+            <a href="#teaching">Teaching</a>
+          </div>
+          <div class="modal-content-item" id="link5">
             <a href="#professional">Professional Service</a>
           </div>
-          <div class="modal-content-item">
+          <div class="modal-content-item" id="link6">
             <a href="#opportunities">Opportunities</a>
           </div>
         </div>
@@ -2188,6 +2195,98 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+    <script>
+      document
+        .getElementById('link1')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('news');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+      document
+        .getElementById('link2')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('publications');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+      document
+        .getElementById('link3')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('awards');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+      document
+        .getElementById('link4')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('teaching');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+      document
+        .getElementById('link5')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('professional');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+      document
+        .getElementById('link6')
+        .addEventListener('click', function (event) {
+          event.preventDefault(); // 阻止默认锚点跳转行为
+          const targetElement = document.getElementById('opportunities');
+          const offset = 70; // 位移量
+          const targetPosition =
+            targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = targetPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        });
+    </script>
     <script type="text/javascript">
       function onresizeFun() {
         if (window.innerWidth <= 768) {
