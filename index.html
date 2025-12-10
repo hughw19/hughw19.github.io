@@ -3046,8 +3046,56 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      // -------------------------
+      // 语言数据定义
+      // -------------------------
+      var I18N_LANG_DATA = {
+        zh: {
+          opportunities: {
+            subTitle1: '博士招生机会',
+            tips: '我们团队每年提供以下博士招生名额：',
+            li1: '北京大学计算机前沿中心（CFCS）博士名额：2名；',
+            li2: '北京智源研究院 — 中科院自动化所联合培养博士名额：2名及以上；',
+            li3: '北京中关村学院博士名额：若干；',
+            li4: '面向香港地区学生及国际学生的博士名额：1名。',
+            p1: '此外，我们与<b>清华大学交叉信息研究院、上海期智研究院</b>保持紧密合作，每年多名学生经推荐进入<b>清华大学、上海交通大学等</b>高校攻读<b>学术型或工程型博士。</b>',
+            p2: '欢迎具备具身智能研究经验和论文发表经历的本科生、硕士生在对应申请截止日期前<b>至少提前一年</b>联系我。<b>优先录取有本团队实习经历的学生。</b>',
+            subTitle2: '访问学生与科研实习生',
+            p3: '我们欢迎来自全球顶尖高校的优秀<b>本科生和研究生</b>申请<b>6个月以上的线下科研实习。',
+            p4: '实习地点位于<b>北京大学–银河通用具身智能联合实验室（中关村鼎好大厦）</b>, 并提供一流的科研环境及具有竞争力的生活与住宿津贴。',
+            p5: '过去几年，我们已合作实习生上百名，累计在国际顶级会议/期刊上发表论文上百篇。团队实习生在博士申请中具备显著优势，许多同学被录取到<b>北大、清华、智源–自动化所联合培养博士项目</b>, 以及<b>Stanford、MIT、Berkeley、CMU、UCLA、UCSD</b> 等世界一流大学。',
+            subTitle3: '全职岗位（银河通用 & 智源）',
+            p6: '在<b>银河通用（Galbot）</b>与<b>北京智源研究院具身智能中心</b>, 我们长期招聘：',
+            li5: '全职研究科学家',
+            li6: '全职工程师',
+            p7: '如有兴趣，欢迎邮件联系。',
+          },
+        },
+        en: {
+          opportunities: {
+            subTitle1: 'Doctoral Recruitment Opportunities',
+            tips: 'Our team offers the following doctoral positions each year:',
+            li1: 'Doctoral positions at the Center for Frontiers in Computing (CFCS), Peking University: 2;',
+            li2: 'Joint doctoral program positions between Beijing Academy of Artificial Intelligence and Institute of Automation, Chinese Academy of Sciences: 2 or more;',
+            li3: 'Doctoral positions at Beijing Zhongguancun College: a number of openings;',
+            li4: 'Doctoral positions for students from Hong Kong and international students: 1.',
+            p1: 'In addition, we maintain clos collaborations with the <b>Institute for Interdisciplinary Information Sciences at Tsinghua University </b>and <b>the Shanghai Qizhi Institute.</b> Each year, a number of students are recommended to pursue <b>academic or engineering doctoral degrees</b> at<b>Tsinghua University, Shanghai Jiao Tong University</b>, and other institutions.',
+            p2: 'Undergraduate and master\'s students with research experience in embodied intelligence and a record of publications are welcome to contact me <b>at least one year</b> before the corresponding application deadlines. <b>Priority will be given to applicants with internship experience in our team.</b>',
+            subTitle2: 'Visiting Students and Research Interns',
+            p3: 'We welcome outstanding<b>undergraduate and graduate students</b> from top universities worldwide to apply for <b>on-site research internships lasting six months or more.</b>',
+            p4: 'The internship takes place at the<b>Peking University–Galbot Embodied Intelligence Joint Laboratory(located in Zhongguancun Dinghao Building)</b>, offering a first-class research environment and competitive living and accommodation allowances.',
+            p5: 'Over the past few years, we have collaborated with hundreds of interns, resulting in the publication of over a hundred papers in top-tier international conferences and journals. Interns from our team have a significant advantage in doctoral applications, with many admitted to<b>Peking University, Tsinghua University, the BAAI–IA Joint Doctoral Program</b>, and world-leading institutions such as<b>Stanford, MIT, Berkeley, CMU, UCLA, and UCSD.</b>',
+            subTitle3: 'Full-time Positions (Galbot & BAAI)',
+            p6: 'At <b>Galbot</b> and<b>the Embodied Intelligence Center of Beijing Academy of ArtificialIntelligence</b>, we are continuously recruiting:',
+            li5: 'Full-time Research Scientists',
+            li6: 'Full-time Engineers',
+            p7: 'If interested, please feel free to contact us via email.',
+          },
+        }
+      };
+
       // 当前语言
-      let currentLang = localStorage.getItem('lang') || 'zh';
+      var currentLang = localStorage.getItem('lang') || 'en';
 
       // -------------------------
       // 工具方法：更新语言按钮状态
@@ -3083,22 +3131,10 @@
       }
 
       // -------------------------
-      // 工具方法：加载语言 JSON
+      // 工具方法：获取语言数据
       // -------------------------
-      function loadLang(lang, callback) {
-        var script = document.createElement('script');
-        script.src = '/i18n/' + lang + '.js?v=' + Date.now(); // 加随机数防缓存
-
-        script.onload = function () {
-          // JS 文件加载完后，window.I18N_DATA 就已经可用了
-          callback && callback(window.I18N_DATA);
-        };
-
-        script.onerror = function () {
-          console.error('❌ 加载语言文件失败: ' + lang + '.js');
-        };
-
-        document.body.appendChild(script);
+      function getLangData(lang) {
+        return I18N_LANG_DATA[lang] || I18N_LANG_DATA['zh'];
       }
 
       // -------------------------
@@ -3108,9 +3144,8 @@
         currentLang = lang;
         localStorage.setItem('lang', lang);
         updateLangUI(lang);
-        loadLang(lang, function (json) {
-          renderI18n(json);
-        });
+        const langData = getLangData(lang);
+        renderI18n(langData);
       }
 
       // -------------------------
@@ -3121,9 +3156,8 @@
         updateLangUI(currentLang);
 
         // 加载当前语言
-        loadLang(currentLang, function (json) {
-          renderI18n(json);
-        });
+        const langData = getLangData(currentLang);
+        renderI18n(langData);
 
         // 绑定按钮
         document
