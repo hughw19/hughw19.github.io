@@ -1,0 +1,21 @@
+window.I18N_DATA = {
+  opportunities: {
+    subTitle1: 'Doctoral Recruitment Opportunities',
+    tips: 'Our team offers the following doctoral positions each year:',
+    li1: 'Doctoral positions at the Center for Frontiers in Computing (CFCS), Peking University: 2;',
+    li2: 'Joint doctoral program positions between Beijing Academy of Artificial Intelligence and Institute of Automation, Chinese Academy of Sciences: 2 or more;',
+    li3: 'Doctoral positions at Beijing Zhongguancun College: a number of openings;',
+    li4: 'Doctoral positions for students from Hong Kong and international students: 1.',
+    p1: 'In addition, we maintain clos collaborations with the <b>Institute for Interdisciplinary Information Sciences at Tsinghua University </b>and <b>the Shanghai Qizhi Institute.</b> Each year, a number of students are recommended to pursue <b>academic or engineering doctoral degrees</b> at<b>Tsinghua University, Shanghai Jiao Tong University</b>, and other institutions.',
+    p2: 'Undergraduate and master’s students with research experience in embodied intelligence and a record of publications are welcome to contact me <b>at least one year</b> before the corresponding application deadlines. <b>Priority will be given to applicants with internship experience in our team.</b>',
+    subTitle2: 'Visiting Students and Research Interns',
+    p3: 'We welcome outstanding<b>undergraduate and graduate students</b> from top universities worldwide to apply for <b>on-site research internships lasting six months or more.</b>',
+    p4: 'The internship takes place at the<b>Peking University–Galbot Embodied Intelligence Joint Laboratory(located in Zhongguancun Dinghao Building)</b>, offering a first-class research environment and competitive living and accommodation allowances.',
+    p5: 'Over the past few years, we have collaborated with hundreds of interns, resulting in the publication of over a hundred papers in top-tier international conferences and journals. Interns from our team have a significant advantage in doctoral applications, with many admitted to<b>Peking University, Tsinghua University, the BAAI–IA Joint Doctoral Program</b>, and world-leading institutions such as<b>Stanford, MIT, Berkeley, CMU, UCLA, and UCSD.</b>',
+    subTitle3: 'Full-time Positions (Galbot & BAAI)',
+    p6: 'At <b>Galbot</b> and<b>the Embodied Intelligence Center of Beijing Academy of ArtificialIntelligence</b>, we are continuously recruiting:',
+    li5: 'Full-time Research Scientists',
+    li6: 'Full-time Engineers',
+    p7: 'If interested, please feel free to contact us via email.',
+  },
+};
