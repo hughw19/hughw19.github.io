@@ -3085,20 +3085,18 @@
       // -------------------------
       // 工具方法：加载语言 JSON
       // -------------------------
-      async function loadLang(lang) {
-        return new Promise((resolve, reject) => {
-          const script = document.createElement('script');
-          script.src = `/i18n/${lang}.js?v=${Date.now()}`; // 防止缓存
+      function loadLang(lang) {
+        const script = document.createElement('script');
+        script.src = `/i18n/${lang}.js?v=${Date.now()}`; // 防止缓存
 
-          script.onload = () => {
-            // 加载完成后，window.I18N_DATA 就是语言包
-            renderI18n(window.I18N_DATA);
-            resolve();
-          };
-          script.onerror = () => reject(`❌ 加载语言文件失败: ${lang}.js`);
+        script.onload = () => {
+          // 加载完成后，window.I18N_DATA 就是语言包
+          renderI18n(window.I18N_DATA);
+          resolve();
+        };
+        script.onerror = () => reject(`❌ 加载语言文件失败: ${lang}.js`);
 
-          document.body.appendChild(script);
-        });
+        document.body.appendChild(script);
       }
 
       // -------------------------
