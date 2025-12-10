@@ -156,7 +156,7 @@
           <div class="swiper-content">
             <div class="slide-source">
               <a>
-                <video id="video01" autoplay loop muted>
+                <video id="video01" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/trackvla.mp4"
                     type="video/mp4"
@@ -171,7 +171,7 @@
             </div>
             <div class="slide-source">
               <a>
-                <video id="video02" autoplay loop muted>
+                <video id="video02" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/grasp.mp4"
                     type="video/mp4"
@@ -186,7 +186,7 @@
             </div>
             <div class="slide-source">
               <a>
-                <video style="width: 100%" id="video03" autoplay loop muted>
+                <video style="width: 100%" id="video03" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/grocery.mp4"
                     type="video/mp4"
@@ -200,7 +200,7 @@
             </div>
             <div class="slide-source">
               <a href="https://pku-epic.github.io/ASGrasp/">
-                <video id="video1" autoplay loop muted>
+                <video id="video1" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/tech6-1.mp4"
                     type="video/mp4"
@@ -215,7 +215,7 @@
             </div>
             <div class="slide-source">
               <a href="  https://pku-epic.github.io/DexGraspNet/">
-                <video id="video2" autoplay loop muted>
+                <video id="video2" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/tech7-1.mp4"
                     type="video/mp4"
@@ -234,7 +234,7 @@
             </script>
             <div class="slide-source">
               <a href="https://pku-epic.github.io/Open6DOR/">
-                <video id="video3" autoplay loop muted>
+                <video id="video3" autoplay loop muted preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/tech2-1.mp4"
                     type="video/mp4"
@@ -254,7 +254,7 @@
             </script>
             <div class="slide-source">
               <a href="https://pku-epic.github.io/NaVid/">
-                <video autoplay muted loop>
+                <video autoplay muted loop preload="auto">
                   <source
                     src="https://oss-cn-beijing.galbot.com/online/blog/tech3-1.mp4"
                     type="video/mp4"
@@ -279,6 +279,7 @@
                   controlsList="nodownload noPictureInPicture"
                   x5-video-player-type="h5-page"
                   id="video01"
+                  preload="auto"
                   poster="https://oss-cn-beijing.galbot.com/online/blog/trackvla.jpg"
                 >
                   <source
@@ -301,6 +302,7 @@
                 <video
                   loop
                   muted
+                  preload="auto"
                   controlsList="nodownload noPictureInPicture"
                   x5-video-player-type="h5-page"
                   id="video02"
@@ -327,6 +329,7 @@
                 <img src="./assets/play.png" alt="" class="play" />
                 <video
                   loop
+                  preload="auto"
                   muted
                   controlsList="nodownload noPictureInPicture"
                   x5-video-player-type="h5-page"
@@ -354,6 +357,7 @@
                 <video
                   loop
                   muted
+                  preload="auto"
                   controlsList="nodownload noPictureInPicture"
                   x5-video-player-type="h5-page"
                   id="video1"
@@ -383,6 +387,7 @@
                   x5-video-player-type="h5-page"
                   loop
                   muted
+                  preload="auto"
                   controlsList="nodownload noPictureInPicture"
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech7.png"
                 >
@@ -415,6 +420,7 @@
                   loop
                   controlsList="nodownload noPictureInPicture"
                   muted
+                  preload="auto"
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech2.png"
                 >
                   <source
@@ -445,6 +451,7 @@
                   muted
                   controlsList="nodownload noPictureInPicture"
                   loop
+                  preload="auto"
                   poster="https://oss-cn-beijing.galbot.com/online/portal/video/tech3.png"
                 >
                   <source
@@ -579,7 +586,7 @@
       </div>
       <div class="main-content">
         <div id="publications" class="main-selected">
-          <div class="title">SELECTED PUBLICATIONS</div>
+          <div class="title">Preprint</div>
           <div class="selected-item">
             <img src="./assets/navfom.gif" alt="" />
             <div class="item-right">
@@ -736,6 +743,11 @@
             }
             </p>
           </pre>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-selected">
+          <div class="title">SELECTED PUBLICATIONS</div>
           <!-- <div class="selected-item">
             <img class="lazy-load" src="./assets/72.png" alt="" />
             <div class="item-right">
@@ -817,7 +829,7 @@
             <a
               href="https://oss-cn-beijing.galbot.com/online/blog/trackvla1.mp4"
             >
-              <img class="play" src="/assets/play1.png" alt="" />
+              <img class="play" src="./assets/play1.png" alt="" />
               <img
                 class="lazy-load"
                 src="https://oss-cn-beijing.galbot.com/online/blog/trackvla1.png"
@@ -3041,8 +3053,7 @@
       </div>
     </div>
     <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      src="./js/jquery-3.7.1.js"
       crossorigin="anonymous"
     ></script>
     <script>
@@ -3080,7 +3091,7 @@
             li3: 'Doctoral positions at Beijing Zhongguancun College: a number of openings;',
             li4: 'Doctoral positions for students from Hong Kong and international students: 1.',
             p1: 'In addition, we maintain clos collaborations with the <b>Institute for Interdisciplinary Information Sciences at Tsinghua University </b>and <b>the Shanghai Qizhi Institute.</b> Each year, a number of students are recommended to pursue <b>academic or engineering doctoral degrees</b> at<b>Tsinghua University, Shanghai Jiao Tong University</b>, and other institutions.',
-            p2: 'Undergraduate and master\'s students with research experience in embodied intelligence and a record of publications are welcome to contact me <b>at least one year</b> before the corresponding application deadlines. <b>Priority will be given to applicants with internship experience in our team.</b>',
+            p2: "Undergraduate and master's students with research experience in embodied intelligence and a record of publications are welcome to contact me <b>at least one year</b> before the corresponding application deadlines. <b>Priority will be given to applicants with internship experience in our team.</b>",
             subTitle2: 'Visiting Students and Research Interns',
             p3: 'We welcome outstanding<b>undergraduate and graduate students</b> from top universities worldwide to apply for <b>on-site research internships lasting six months or more.</b>',
             p4: 'The internship takes place at the<b>Peking University–Galbot Embodied Intelligence Joint Laboratory(located in Zhongguancun Dinghao Building)</b>, offering a first-class research environment and competitive living and accommodation allowances.',
@@ -3091,11 +3102,12 @@
             li6: 'Full-time Engineers',
             p7: 'If interested, please feel free to contact us via email.',
           },
-        }
+        },
       };
 
       // 当前语言
-      var currentLang = localStorage.getItem('lang') || 'en';
+      // var currentLang = localStorage.getItem('lang') || 'en';
+      var currentLang = 'zh';
 
       // -------------------------
       // 工具方法：更新语言按钮状态
