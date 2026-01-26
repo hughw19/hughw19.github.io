@@ -170,7 +170,7 @@
                   preload="metadata"
                 >
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/navfom.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/navfom.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -195,7 +195,7 @@
                   preload="metadata"
                 >
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/dexndm.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/dexndm.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -219,7 +219,7 @@
                   preload="metadata"
                 >
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/any2track.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/any2track.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -230,9 +230,9 @@
             </div>
             <div class="slide-source">
               <a>
-                <video id="video01" autoplay loop muted preload="metadata">
+                <video id="video01" autoplay loop muted playsinline preload="metadata">
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/trackvla.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/trackvla.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -245,9 +245,9 @@
             </div>
             <div class="slide-source">
               <a>
-                <video id="video02" autoplay loop muted preload="metadata">
+                <video id="video02" autoplay loop muted playsinline preload="metadata">
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/grasp.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/grasp.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -266,10 +266,11 @@
                   autoplay
                   loop
                   muted
+                  playsinline
                   preload="metadata"
                 >
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/grocery.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/grocery.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -281,9 +282,9 @@
             </div>
             <div class="slide-source">
               <a href="https://pku-epic.github.io/ASGrasp/">
-                <video id="video1" autoplay loop muted preload="metadata">
+                <video id="video1" autoplay loop muted playsinline preload="metadata">
                   <source
-                    src="https://oss-cn-beijing.galbot.com/online/blog/tech6-1.mp4"
+                    data-src="https://oss-cn-beijing.galbot.com/online/blog/tech6-1.mp4"
                     type="video/mp4"
                   />
                 </video>
@@ -3692,6 +3693,24 @@
         // 加载当前语言
         const langData = getLangData(currentLang);
         renderI18n(langData);
+
+        // 视频懒加载
+        const lazyVideos = document.querySelectorAll('.swiper-content video');
+        const videoObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const video = entry.target;
+              const source = video.querySelector('source[data-src]');
+              if (source) {
+                source.src = source.dataset.src;
+                video.load();
+                video.play().catch(() => {});
+              }
+              videoObserver.unobserve(video);
+            }
+          });
+        }, { rootMargin: '100px' });
+        lazyVideos.forEach(video => videoObserver.observe(video));
 
         // 绑定按钮
         document
