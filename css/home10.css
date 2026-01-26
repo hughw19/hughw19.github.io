@@ -92,6 +92,7 @@ pre {
   box-sizing: border-box;
   overflow-wrap: break-word;
   margin-top: 14px;
+  text-align: justify;
 }
 .main-swiper .slide-source:last-child {
   margin-right: 0;
@@ -238,6 +239,9 @@ pre {
   display: none;
   cursor: pointer;
 }
+#opportunities div{
+  text-align: justify;
+}
 #opportunities .title .language-active{
   display: inline-block;
 }
@@ -339,6 +343,7 @@ pre {
 }
 .main-userinfo .decs {
   margin-top: 56px;
+  text-align: justify;
 }
 .main-userinfo .decs p {
   font-family: Verdana;
@@ -371,6 +376,7 @@ pre {
   margin-top: 18px;
   padding-bottom: 50px;
   box-sizing: border-box;
+  text-align: justify;
 }
 .main-news ul li {
   position: relative;
@@ -677,6 +683,7 @@ pre p {
   .main-selected .selected-item p {
     font-size: 0.09rem;
     line-height: normal;
+    text-align: justify;
   }
   .main-selected .selected-item .decs {
     font-size: 0.1rem;
