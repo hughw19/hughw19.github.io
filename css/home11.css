@@ -493,7 +493,7 @@ pre {
 }
 .main-selected .selected-item .button {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
 }
 .main-selected .selected-item .button a {
