@@ -492,6 +492,7 @@ pre {
   font-weight: 700;
 }
 .main-selected .selected-item .button {
+  display: flex;
   position: absolute;
   bottom: 0px;
   left: 0;
