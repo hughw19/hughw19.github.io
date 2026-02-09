@@ -56,7 +56,7 @@ pre {
   position: relative;
   top: 0;
   left: 0;
-  width: 2280px;
+  width: 2750px;
   overflow: hidden;
 }
 .main-swiper .swiper-content-phone {
@@ -64,7 +64,7 @@ pre {
   position: relative;
   top: 0;
   left: 0;
-  width: 14.3rem;
+  width: 17rem;
   overflow: hidden;
 }
 .main-swiper .slide-source {
@@ -78,6 +78,8 @@ pre {
   margin-right: 0.2rem;
 }
 .main-swiper .slide-source a {
+  display: block;
+  width: 100%;
   text-decoration: none;
 }
 .main-swiper .slide-source div {
@@ -100,6 +102,15 @@ pre {
 .main-swiper .slide-source video {
   height: 243px;
   object-fit: cover;
+  border-radius: 5px;
+  background: #d8d8d8;
+}
+.main-swiper .slide-source .slide-img {
+  display: block;
+  height: 243px;
+  width: 432px;
+  object-fit: cover;
+  margin: 0 auto;
   border-radius: 5px;
   background: #d8d8d8;
 }
@@ -239,10 +250,10 @@ pre {
   display: none;
   cursor: pointer;
 }
-#opportunities div{
+#opportunities div {
   text-align: justify;
 }
-#opportunities .title .language-active{
+#opportunities .title .language-active {
   display: inline-block;
 }
 
@@ -867,6 +878,7 @@ pre p {
     overflow-wrap: break-word;
     margin-top: 0.14rem;
   }
+
   .main-swiper .swiper-content-phone .slide-source div span {
     color: #38393c;
     font-weight: 300;
@@ -893,6 +905,11 @@ pre p {
     height: 1.8rem;
     border-radius: 0.05rem;
     background: none;
+  }
+  .main-swiper .swiper-content-phone .slide-img {
+    width: 2.62rem;
+    height: 1.8rem;
+    border-radius: 0.05rem;
   }
   ::-webkit-scrollbar {
     width: 0px;
