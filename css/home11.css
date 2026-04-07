@@ -943,3 +943,62 @@ pre p {
     height: 0.3rem !important;
   }
 }
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+details.publications-toggle {
+  overflow: hidden;
+}
+
+details.publications-toggle > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.hidden-publications {
+  animation: slideDown 0.4s ease-out forwards;
+}
+
+details.publications-toggle[open] .hidden-publications {
+  animation: slideDown 0.4s ease-out forwards;
+}
+
+details.publications-toggle > summary {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 13px;
+  color: #2967ac;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: color 0.2s ease;
+}
+
+details.publications-toggle > summary:hover {
+  text-decoration: underline;
+  color: #2967ac;
+}
