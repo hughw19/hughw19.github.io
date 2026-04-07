@@ -456,6 +456,7 @@ pre {
   width: 216px;
   height: 145px;
   margin-right: 24px;
+  object-fit: cover;
 }
 .main-selected .selected-item .item-right {
   flex: 1;
@@ -684,6 +685,7 @@ pre p {
     width: 1.23rem;
     height: 0.75rem;
     margin-right: 0.14rem;
+    object-fit: cover;
   }
   .main-selected .selected-item .item-title {
     color: #171718;
@@ -1005,6 +1007,10 @@ details.publications-toggle[open] > summary::after {
 details.publications-toggle > summary:hover {
   text-decoration: underline;
   color: #2967ac;
+}
+
+#opportunities[data-lang="en"] b {
+  font-weight: 400;
 }
 
 .hidden-publications {
