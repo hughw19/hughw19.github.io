@@ -970,9 +970,41 @@ details.publications-toggle {
   overflow: hidden;
 }
 
+details.publications-toggle[open] {
+  display: flex;
+  flex-direction: column;
+}
+
 details.publications-toggle > summary {
   list-style: none;
   cursor: pointer;
+  display: block;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 13px;
+  color: #2967ac;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: color 0.2s ease;
+}
+
+details.publications-toggle[open] > summary {
+  order: 1;
+  font-size: 0;
+}
+
+details.publications-toggle[open] > summary::after {
+  content: "Show Less";
+  font-size: 13px;
+}
+
+details.publications-toggle > summary:hover {
+  text-decoration: underline;
+  color: #2967ac;
 }
 
 .hidden-publications {
@@ -981,24 +1013,4 @@ details.publications-toggle > summary {
 
 details.publications-toggle[open] .hidden-publications {
   animation: slideDown 0.4s ease-out forwards;
-}
-
-details.publications-toggle > summary {
-  display: inline-block;
-  font-family: Verdana;
-  font-size: 13px;
-  color: #2967ac;
-  font-weight: 400;
-  text-decoration: none;
-  margin-top: 10px;
-  cursor: pointer;
-  padding: 0;
-  border: none;
-  background: none;
-  transition: color 0.2s ease;
-}
-
-details.publications-toggle > summary:hover {
-  text-decoration: underline;
-  color: #2967ac;
 }
