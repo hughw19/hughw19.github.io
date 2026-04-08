@@ -37,6 +37,9 @@
               <a href="https://PKU-EPIC.github.io">Lab</a>
             </div>
           </div>
+          <div class="lang-switch">
+            <img id="global-lang-toggle" class="lang-btn" src="./assets/en.png" alt="Switch Language" />
+          </div>
         </div>
         <div class="head-phone">
           <div class="name">He Wang</div>
@@ -4536,6 +4539,9 @@
             <a href="#opportunities">Opportunities</a>
           </div>
         </div>
+        <div class="modal-lang-switch">
+          <img id="modal-lang-toggle" class="lang-btn" src="./assets/en.png" alt="Switch Language" />
+        </div>
         <div class="modal-footer">
           <div class="modal-footer-item footer-item-active">
             <a href="https://hughw19.github.io">Home</a>
@@ -4606,12 +4612,13 @@
       // -------------------------
       function updateLangUI(lang) {
         if (lang === 'en') {
-          $('.cn').addClass('language-active');
-          $('.en').removeClass('language-active');
+          $('.opportunities-language.cn').addClass('language-active');
+          $('.opportunities-language.en').removeClass('language-active');
         } else {
-          $('.en').addClass('language-active');
-          $('.cn').removeClass('language-active');
+          $('.opportunities-language.en').addClass('language-active');
+          $('.opportunities-language.cn').removeClass('language-active');
         }
+        $('.lang-btn').attr('src', lang === 'zh' ? './assets/en.png' : './assets/cn.png');
       }
 
       // -------------------------
@@ -4702,6 +4709,14 @@
         document
           .getElementById('lang-en')
           .addEventListener('click', () => setLang('en'));
+
+        // 全局语言切换按钮（PC头部 + 移动端弹窗）
+        document
+          .getElementById('global-lang-toggle')
+          .addEventListener('click', () => setLang(currentLang === 'zh' ? 'en' : 'zh'));
+        document
+          .getElementById('modal-lang-toggle')
+          .addEventListener('click', () => setLang(currentLang === 'zh' ? 'en' : 'zh'));
       });
     </script>
 
