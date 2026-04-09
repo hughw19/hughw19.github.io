@@ -456,7 +456,7 @@ pre {
   width: 216px;
   height: 145px;
   margin-right: 24px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .main-selected .selected-item .item-right {
   flex: 1;
