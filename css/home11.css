@@ -161,6 +161,7 @@ pre {
   z-index: 0;
 }
 .main-head {
+  position: relative;
   max-width: 940px;
   height: 60px;
   margin: 0 auto;
@@ -246,6 +247,26 @@ pre {
 .main-head .menu .active a {
   font-family: Verdana-Bold;
   font-weight: 700;
+}
+
+.lang-switch {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.lang-btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: opacity 0.2s;
+}
+.lang-btn:hover {
+  opacity: 0.7;
 }
 
 #opportunities .title img {
@@ -803,6 +824,17 @@ pre p {
   }
   .item-active a {
     opacity: 1;
+  }
+  .modal-lang-switch {
+    position: absolute;
+    bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.12rem;
+  }
+  .modal-lang-switch .lang-btn {
+    width: 0.3rem;
+    height: 0.3rem;
   }
   .modal-footer {
     position: absolute;
