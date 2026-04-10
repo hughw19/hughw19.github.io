@@ -23,14 +23,14 @@ var I18N_LANG_DATA = {
       desc2:
         '王鹤博士同时担任<a href="https://www.galbot.com">银河通用机器人公司</a>联合创始人及首席技术官，致力于让通用可泛化具身大模型机器人走进千行百业、千家万户。',
       desc3:
-        '此外，王鹤博士兼任<a href="https://www.bza.edu.cn/">中关村学院</a>的兼职研究型导师。推动银河通用机器人、中关村学院及其他合作伙伴共同建立了具身智能联合实验室。通过“学-研-产”一体化合作模式，聚焦前沿研究与应用创新，培养高端人才，推动技术进步与产业升级，致力于打造一个卓越的具身大模型机器人研发基地。',
+        '此外，王鹤博士兼任<a href="https://www.bza.edu.cn/">中关村学院</a>的研究型导师。推动银河通用机器人、中关村学院及其他合作伙伴共同建立了具身智能联合实验室。通过“学-研-产”一体化合作模式，聚焦前沿研究与应用创新，培养高端人才，推动技术进步与产业升级，致力于打造一个卓越的具身大模型机器人研发基地。',
     },
     news: {
       title: '新闻动态',
       item1: '3篇工作被 CVPR 2026 收录。',
       item2:
         '被邀请在 CEAI 2026 <a href="https://mp.weixin.qq.com/s/QXKddqa3ccwsWYbtXXTkrw" target="_blank">具身大模型与强化学习论坛</a>报告。',
-      item3: '入选国家海外高层次人才计划。',
+      // item3: '入选国家海外高层次人才计划。',
       item4:
         '2026年2月9日，习近平总书记在北京调研察看代表性科技创新成果，与王鹤教授及其他科技创新代表进行了亲切交流，Galbot G1 展示了其进展。',
       item5: '6篇工作被 ICRA 2026 收录。',
@@ -167,8 +167,8 @@ var I18N_LANG_DATA = {
       item1: 'Three papers get accepted to CVPR 2026.',
       item2:
         'I am invited to to be a speaker in the Forum on Embodied Large Models and Reinforcement Learning at CEAI 2026.',
-      item3:
-        'I am selected for the National Overseas High-Level Talent Program.',
+      // item3:
+      //   'I am selected for the National Overseas High-Level Talent Program.',
       item4:
         'On February 9, 2026, President Xi Jinping conducted an inspection of the Galbot G1 robot in Beijing and met with Prof. He Wang, together with other leaders in technology innovation.',
       item5: 'Six papers get accepted to ICRA 2026.',
