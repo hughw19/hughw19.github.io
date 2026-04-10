@@ -17,7 +17,7 @@ var I18N_LANG_DATA = {
         '<a href="https://english.pku.edu.cn/">北京大学计算机学院</a>前沿计算研究中心助力教授 博士生导师',
       subtitle2:
         '<a href="https://www.galbot.com">北京银河通用机器人股份有限公司</a>创始人 CTO',
-      subtitle3: '<a href="https://www.bza.edu.cn/">中关村学院</a>博士生导师',
+      subtitle3: '<a href="https://www.bza.edu.cn/">中关村学院</a>研究型导师',
       desc1:
         '我是<a href="https://english.pku.edu.cn/">北京大学计算机学院</a><a href="https://cfcs.pku.edu.cn/english">前沿计算研究中心</a>的助理教授及博士生导师，北京大学博雅青年学者，入选国家海外高层次人才计划。创立并领导了<a href="https://pku-epic.github.io/">北大具身感知与交互实验室(EPIC Lab)</a>，旨在通过研发具身泛化技能及具身多模态大模型推进通用机器人的发展。创立了<a href="https://www.galbot.com">银河通用机器人公司</a>，担任首席技术官，并兼任<a href="https://www.bza.edu.cn/">中关村学院</a>的研究型导师。',
       desc2: '',
@@ -47,18 +47,17 @@ var I18N_LANG_DATA = {
     },
     awards: {
       title: '获奖与荣誉',
-      item1: '2026年国家海外高层次人才',
-      item2: '2025年世界互联网大会领先科技奖',
-      item3: '2025年《财富》杂志“中国40位40岁以下的商界精英”',
-      item4: '2025年《麻省理工科技评论》“35岁以下科技创新35人”（TR 35中国区）',
-      item5: '2024年蚂蚁科技奖',
-      item6: '2024年英特尔中国学术英才计划荣誉学者',
-      item7: '2023年国际计算机视觉大会(ICCV)最佳论文候选',
-      item8: '2023年国际机器人与自动化大会(ICRA)最佳操纵论文候选',
-      item9: '2022年世界人工智能大会青年优秀论文奖',
+      item1: '2025年世界互联网大会领先科技奖',
+      item2: '2025年《财富》杂志“中国40位40岁以下的商界精英”',
+      item3: '2025年《麻省理工科技评论》“35岁以下科技创新35人”（TR 35中国区）',
+      item4: '2024年蚂蚁科技奖',
+      item5: '2024年英特尔中国学术英才计划荣誉学者',
+      item6: '2023年国际计算机视觉大会(ICCV)最佳论文候选',
+      item7: '2023年国际机器人与自动化大会(ICRA)最佳操纵论文候选',
+      item8: '2022年世界人工智能大会青年优秀论文奖',
+      item9:
+        '<a href="https://sapien.ucsd.edu/challenges/maniskill2021/">2021年ICLR机器人泛化技能挑战赛</a>ManiSkill无标注赛道冠军',
       item10: '2019年欧洲图形学会议最佳论文提名',
-      item11:
-        '<a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> 一等奖（无外部标注赛道）',
     },
     teaching: {
       title: '教学',
@@ -155,10 +154,8 @@ var I18N_LANG_DATA = {
         'Research Supervisor of <a href="https://www.bza.edu.cn/">ZGC Academy</a>',
       desc1:
         'I am a Tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>. I am a Boya Young Fellow at PKU and have been selected for the national-level overseas high-level talent program. I founded and lead the <a href="https://pku-epic.github.io/">Embodied Perception and InteraCtion (EPIC) Lab</a>, with the mission of developing generalizable skills and embodied multimodal large models to advance embodied AGI in robotics. I also founded <a href="https://www.galbot.com">GALBOT</a>, serving as its CTO, and hold a concurrent position as a Research Mentor at the <a href="https://www.bza.edu.cn/">Zhongguancun Academy (ZGC Academy)</a>.',
-      desc2:
-        '',
-      desc3:
-        '',
+      desc2: '',
+      desc3: '',
     },
     news: {
       title: 'NEWS',
@@ -180,27 +177,24 @@ var I18N_LANG_DATA = {
     },
     publications: {
       title: 'SELECTED PUBLICATIONS',
-      subtitle:
-        '*Equal contribution <span>&#8224;</span>Corresponding author',
+      subtitle: '*Equal contribution <span>&#8224;</span>Corresponding author',
     },
     awards: {
       title: 'AWARDS AND HONORS',
       item1: '2025 World Internet Conference Leading Technology Award.',
       item2:
         'Fortune magazine\'s 2025 "China\'s 40 Under 40 Business Leaders".',
-      item3: 'Ant InTech Award.',
-      item4:
+      item3:
         'MIT Technology Review\'s "Innovators Under 35 China" (TR35 China).',
-      item5:
-        '2024 Peking University-China Optics Valley Award for Scientific and Technological Achievements Transformation.',
-      item6: 'The Honorary Scholar of Intel China Academic Talent Program.',
-      item7: 'ICCV 2023 Best Paper Finalist.',
-      item8: 'ICRA 2023 Outstanding Manipulation Paper Finalist.',
-      item9:
+      item4: 'Ant InTech Award.',
+      item5: 'The Honorary Scholar of Intel China Academic Talent Program.',
+      item6: 'ICCV 2023 Best Paper Finalist.',
+      item7: 'ICRA 2023 Outstanding Manipulation Paper Finalist.',
+      item8:
         '2022 World Artificial Intelligence Conference Youth Outstanding Paper Award.',
-      item10: 'Eurographics 2019 Best Paper Honorable Mention.',
-      item11:
+      item9:
         '1st prize winner of <a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> (no external annotation track).',
+      item10: 'Eurographics 2019 Best Paper Honorable Mention.',
     },
     teaching: {
       title: 'TEACHING',

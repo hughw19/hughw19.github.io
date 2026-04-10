@@ -126,7 +126,7 @@ pre {
 }
 .title span {
   font-family: Verdana;
-  font-weight: 200 !important;
+  /* font-weight: 200 !important; */
 }
 .sub-title {
   font-family: Helvetica-Bold;
