@@ -4,7 +4,7 @@ var I18N_LANG_DATA = {
       name: '王鹤',
       home: '主页',
       lab: '实验室',
-      news: '新闻',
+      news: '动态',
       publications: '论文',
       awards: '荣誉奖项',
       teaching: '教学',
@@ -12,21 +12,19 @@ var I18N_LANG_DATA = {
       opportunities: '招生机会',
     },
     bio: {
-      title: '王鹤教授',
+      title: '王鹤',
       subtitle1:
-        '<a href="https://english.pku.edu.cn/">北京大学计算机学院</a>前沿计算研究中心研究员 博士生导师',
+        '<a href="https://english.pku.edu.cn/">北京大学计算机学院</a>前沿计算研究中心助力教授 博士生导师',
       subtitle2:
         '<a href="https://www.galbot.com">北京银河通用机器人股份有限公司</a>创始人 CTO',
       subtitle3: '<a href="https://www.bza.edu.cn/">中关村学院</a>博士生导师',
       desc1:
-        '王鹤博士是<a href="https://english.pku.edu.cn/">北京大学</a><a href="https://cfcs.pku.edu.cn/english">前沿计算研究中心</a>助理教授及博士生导师，入选国家海外高层次人才计划。王鹤博士创立并领导<a href="https://pku-epic.github.io/">北大具身感知与交互实验室</a>，旨在通过研发具身泛化技能及具身多模态大模型推进通用机器人的发展。',
-      desc2:
-        '王鹤博士同时担任<a href="https://www.galbot.com">银河通用机器人公司</a>联合创始人及首席技术官，致力于让通用可泛化具身大模型机器人走进千行百业、千家万户。',
-      desc3:
-        '此外，王鹤博士兼任<a href="https://www.bza.edu.cn/">中关村学院</a>的研究型导师。推动银河通用机器人、中关村学院及其他合作伙伴共同建立了具身智能联合实验室。通过“学-研-产”一体化合作模式，聚焦前沿研究与应用创新，培养高端人才，推动技术进步与产业升级，致力于打造一个卓越的具身大模型机器人研发基地。',
+        '我是<a href="https://english.pku.edu.cn/">北京大学计算机学院</a><a href="https://cfcs.pku.edu.cn/english">前沿计算研究中心</a>的助理教授及博士生导师，北京大学博雅青年学者，入选国家海外高层次人才计划。创立并领导了<a href="https://pku-epic.github.io/">北大具身感知与交互实验室(EPIC Lab)</a>，旨在通过研发具身泛化技能及具身多模态大模型推进通用机器人的发展。创立了<a href="https://www.galbot.com">银河通用机器人公司</a>，担任首席技术官，并兼任<a href="https://www.bza.edu.cn/">中关村学院</a>的研究型导师。',
+      desc2: '',
+      desc3: '',
     },
     news: {
-      title: '新闻动态',
+      title: '动态',
       item1: '3篇工作被 CVPR 2026 收录。',
       item2:
         '被邀请在 CEAI 2026 <a href="https://mp.weixin.qq.com/s/QXKddqa3ccwsWYbtXXTkrw" target="_blank">具身大模型与强化学习论坛</a>报告。',
@@ -60,7 +58,7 @@ var I18N_LANG_DATA = {
       item9: '2022年世界人工智能大会青年优秀论文奖',
       item10: '2019年欧洲图形学会议最佳论文提名',
       item11:
-        '<a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> 一等奖（无外部标注赛道）。',
+        '<a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> 一等奖（无外部标注赛道）',
     },
     teaching: {
       title: '教学',
@@ -72,13 +70,13 @@ var I18N_LANG_DATA = {
     },
     professional: {
       title: '专业服务',
-      item1: '工业和信息化部人工智能标准化技术委员会具身智能组副组长；',
-      item2: '工业和信息化部人形机器人标准化技术委员会委员；',
-      item3: '广东省人工智能与机器人产业联盟专家委员会委员；',
-      item4: '上海证券交易所第三屆科技创新咨询委员会委员；',
-      item5: '中国计算机学会智能机器人专业委员会执行委员；',
-      item6: '中国人工智能学会具身智能专业委员会委员。',
-      item7: '国际学术会议领域主席：CVPR、ICCV、WACV等；',
+      item1: '工业和信息化部人工智能标准化技术委员会具身智能组副组长',
+      item2: '工业和信息化部人形机器人标准化技术委员会委员',
+      item3: '广东省人工智能与机器人产业联盟专家委员会委员',
+      item4: '上海证券交易所第三屆科技创新咨询委员会委员',
+      item5: '中国计算机学会智能机器人专业委员会执行委员',
+      item6: '中国人工智能学会具身智能专业委员会委员',
+      item7: '国际学术会议领域主席：CVPR、ICCV、WACV等',
     },
     swiper: {
       slide1:
@@ -156,11 +154,11 @@ var I18N_LANG_DATA = {
       subtitle3:
         'Research Supervisor of <a href="https://www.bza.edu.cn/">ZGC Academy</a>',
       desc1:
-        'I am a Tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>. I have been selected for the National Recruitment Program of Global Experts. I founded and lead the <a href="https://pku-epic.github.io/">Embodied Perception and InteraCtion (EPIC) Lab</a>, with the mission of developing generalizable skills and embodied multimodal large models for robots to facilitate embodied AGI.',
+        'I am a Tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>. I am a Boya Young Fellow at PKU and have been selected for the national-level overseas high-level talent program. I founded and lead the <a href="https://pku-epic.github.io/">Embodied Perception and InteraCtion (EPIC) Lab</a>, with the mission of developing generalizable skills and embodied multimodal large models to advance embodied AGI in robotics. I also founded <a href="https://www.galbot.com">GALBOT</a>, serving as its CTO, and hold a concurrent position as a Research Mentor at the <a href="https://www.bza.edu.cn/">Zhongguancun Academy (ZGC Academy)</a>.',
       desc2:
-        'Beyond academia, I am also the co-founder and Chief Technology Officer (CTO) of <a href="https://www.galbot.com">GALBOT</a>, a world-leading embodied AI company dedicated to building humanoid general-purpose robots.',
+        '',
       desc3:
-        'In addition, I serve as a part-time research supervisor at <a href="https://www.bza.edu.cn/">ZGC College (Beijing Zhongguancun College)</a>. and have facilitated the establishment of the Embodied Intelligence Joint Laboratory in collaboration with GALBOT, the college, and other partners, with the goal of building a distinguished R&D hub for embodied large-model robotics.',
+        '',
     },
     news: {
       title: 'NEWS',
