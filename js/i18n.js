@@ -12,7 +12,7 @@ function getUrlLang() {
   return null;
 }
 var urlLang = getUrlLang();
-var currentLang = urlLang || localStorage.getItem('lang') || 'zh';
+var currentLang = urlLang || localStorage.getItem('lang') || 'en';
 
 // 更新 OPPORTUNITIES 区域语言按钮状态
 function updateOpportunitiesLangUI(lang) {
