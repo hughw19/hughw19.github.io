@@ -181,7 +181,7 @@ var I18N_LANG_DATA = {
     publications: {
       title: 'SELECTED PUBLICATIONS',
       subtitle:
-        '*Equal contribution. <span>&#8224;</span>Corresponding author.',
+        '*Equal contribution <span>&#8224;</span>Corresponding author',
     },
     awards: {
       title: 'AWARDS AND HONORS',
