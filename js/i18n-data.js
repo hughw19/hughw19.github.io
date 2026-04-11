@@ -14,7 +14,7 @@ var I18N_LANG_DATA = {
     bio: {
       title: '王鹤',
       subtitle1:
-        '<a href="https://english.pku.edu.cn/">北京大学计算机学院</a>前沿计算研究中心助力教授 博士生导师',
+        '<a href="https://english.pku.edu.cn/">北京大学计算机学院</a>前沿计算研究中心助理教授 博士生导师',
       subtitle2:
         '<a href="https://www.galbot.com">北京银河通用机器人股份有限公司</a>创始人 CTO',
       subtitle3: '<a href="https://www.bza.edu.cn/">中关村学院</a>研究型导师',
