@@ -75,12 +75,12 @@ var I18N_LANG_DATA = {
     professional: {
       title: '专业服务',
       item1: '工业和信息化部人工智能标准化技术委员会具身智能组副组长',
-      item2: '工业和信息化部人形机器人标准化技术委员会委员',
-      item3: '广东省人工智能与机器人产业联盟专家委员会委员',
+      // item2: '工业和信息化部人形机器人标准化技术委员会委员',
+      // item3: '广东省人工智能与机器人产业联盟专家委员会委员',
       item4: '上海证券交易所第三屆科技创新咨询委员会委员',
-      item5: '中国计算机学会智能机器人专业委员会执行委员',
-      item6: '中国人工智能学会具身智能专业委员会委员',
-      item7: '国际学术会议领域主席：CVPR、ICCV、WACV等',
+      // item5: '中国计算机学会智能机器人专业委员会执行委员',
+      item6: '中国人工智能学会具身智能专业委员会常务委员',
+      item7: '国际学术会议领域主席：CVPR、ICCV、CoRL等',
     },
     swiper: {
       slide1:
@@ -121,13 +121,14 @@ var I18N_LANG_DATA = {
         '<a>LDA-1B：1.6B参数的跨本体“隐式世界-动作基础模型“，首次在数据层面实现虚实共融、人机混合、质量参差、有无动作标签的数据统一有效利用。</a>',
     },
     opportunities: {
-      title: '招生机会',
-      subTitle1: '博士招生机会',
+      title: '招聘 & 招生机会',
+      subTitle1: '硕博招生',
       tips: '我们团队每年提供以下博士/硕士招生名额：',
-      li1: '北京大学计算机前沿中心（CFCS）博士名额：2名；',
+      li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名（27年入学名额已无）；',
       li2: '中科院自动化所联合培养博士：多名；',
       li3: '中关村学院联合培养博士：多名（联合学校有中科大、上交及浙大等）；',
-      li4: '面向港澳台及国际学生的硕士及博士名额：2名（北京大学）。',
+      li4: '北京大学面向港澳台及国际学生博士名额：1名；',
+      li7: '北京大学面向港澳台及国际学生硕士名额：1名。',
       p1: '此外，我们与<b>清华大学交叉信息研究院、上海期智研究院</b>保持紧密合作，每年多名学生经推荐进入<b>清华大学、上海交通大学等</b>高校攻读<b>学术型或工程型博士。</b>',
       p2: '欢迎具备具身智能研究经验和论文发表经历的本科生、硕士生在对应申请截止日期前<b>至少提前一年</b>联系我。<b>优先录取有本团队实习经历的学生。</b>',
       subTitle2: '访问学生与科研实习生',
@@ -138,7 +139,7 @@ var I18N_LANG_DATA = {
       p6: '在<b>银河通用（Galbot）我们长期招聘：',
       li5: '全职研究科学家',
       li6: '全职工程师',
-      p7: '如有兴趣，欢迎邮件联系。',
+      p7: '如有兴趣，欢迎邮件联系：<a href="mailto:hewang@pku.edu.cn">hewang@pku.edu.cn</a>',
     },
   },
   en: {
@@ -177,8 +178,8 @@ var I18N_LANG_DATA = {
         'On February 9, 2026, President Xi Jinping conducted an inspection of the Galbot G1 robot in Beijing and met with Prof. He Wang, together with other leaders in technology innovation.',
       item5: 'Six papers get accepted to ICRA 2026.',
       item6: 'Three papers get accepted to ICLR 2026.',
-      item7: 'One paper gets accepted to RA-L.',
-      item8: 'I am invited to be a speaker in Humanoids Summit 2025.',
+      // item7: 'One paper gets accepted to RA-L.',
+      // item8: 'I am invited to be a speaker in Humanoids Summit 2025.',
       item9:
         'Our project, the "Synthetic and real data-driven VLA embodied intelligence large model" was honored with the <a href="https://www.cac.gov.cn/2025-11/06/c_1764156715189004.htm" target="_blank">2025 World Internet Conference Leading Technology Award.</a>',
       item10: 'One paper gets accepted to RA-L.',
@@ -223,17 +224,17 @@ var I18N_LANG_DATA = {
       title: 'PROFESSIONAL SERVICE',
       item1:
         'Vice Chair, Embodied Intelligence Group, Artificial Intelligence Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
-      item2:
-        'Committee Member, Humanoid Robot Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
-      item3:
-        'Expert Committee Member, Guangdong Artificial Intelligence and Robotics Industry Alliance.',
+      // item2:
+      //   'Committee Member, Humanoid Robot Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
+      // item3:
+      //   'Expert Committee Member, Guangdong Artificial Intelligence and Robotics Industry Alliance.',
       item4:
         'Committee Member, Third Session of the Science and Technology Innovation Advisory Committee, Shanghai Stock Exchange (SSE).',
-      item5:
-        'Executive Committee Member, Intelligent Robotics Technical Committee, China Computer Federation (CCF).',
+      // item5:
+      //   'Executive Committee Member, Intelligent Robotics Technical Committee, China Computer Federation (CCF).',
       item6:
-        'Committee Member, Embodied Intelligence Professional Committee, Chinese Association for Artificial Intelligence (CAAI).',
-      item7: 'Area Chair (AC): CVPR, ICCV, WACV, etc.',
+        'Member of the Standing Committee, Technical Committee on Embodied Intelligence, Chinese Association for Artificial Intelligence (CAAI).',
+      item7: 'Area Chair (AC): CVPR, ICCV, CoRL, etc.',
     },
     swiper: {
       slide1:
@@ -277,12 +278,13 @@ var I18N_LANG_DATA = {
     },
     opportunities: {
       title: 'OPPORTUNITIES',
-      subTitle1: 'Doctoral Recruitment Opportunities',
+      subTitle1: 'Graduate Admissions',
       tips: 'Our team offers the following doctoral positions each year:',
-      li1: 'Doctoral positions at the Center for Frontiers in Computing Studies (CFCS), Peking University: 2 openings.',
+      li1: 'Doctoral positions at the Center for Frontiers in Computing Studies (CFCS), Peking University: Up to 2 openings per year. Admission for the 2027 intake is now closed.',
       li2: 'Doctoral co-supervision at the Institute of Automation, Chinese Academy of Sciences (CASIA): multiple openings.',
       li3: 'Doctoral co-supervision at ZGC College: multiple openings (partner institutions include USTC, Shanghai Jiao Tong University, Zhejiang University, etc.).',
-      li4: "Master's and doctoral positions for students from Hong Kong, Macao, Taiwan, and international students: 2 openings (Peking University).",
+      li4: "Doctoral positions for international students at Peking University: 1 opening.",
+      li7: "Master’s positions for international students at Peking University: 1 opening.",
       p1: 'In addition, we maintain close collaborations with the Institute for Interdisciplinary Information Sciences at Tsinghua University and the Shanghai Qi Zhi Institute. Each year, a number of students are recommended for admission to pursue academic or engineering doctoral degrees (PhD/EngD) at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
       p2: "We welcome undergraduate and master's students with research experience in embodied intelligence and a publication record to contact me at least one year before the corresponding application deadline. Priority will be given to applicants who have completed internships with our research group.",
       subTitle2: 'Visiting Students and Research Interns',
@@ -293,7 +295,7 @@ var I18N_LANG_DATA = {
       p6: 'At Galbot, we are continuously hiring for:',
       li5: 'Full‑time Research Scientists',
       li6: 'Full‑time Engineers',
-      p7: 'If interested, please feel free to contact me via email.',
+      p7: 'Those interested are encouraged to reach out by email: <a href="mailto:hewang@pku.edu.cn">hewang@pku.edu.cn</a>',
     },
   },
 };
