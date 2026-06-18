@@ -45,6 +45,7 @@ var I18N_LANG_DATA = {
         '受邀在 <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026发表行业主题演讲</a>，主题为“Towards the AlphaGo and ChatGPT Moments of Embodied AI”。',
       item15: '受邀担任 CoRL 2026 领域主席。',
       item16: '3篇工作被 IROS 2026 收录。',
+      item17: '4篇工作被 ECCV 2026 收录。',
     },
     publications: {
       title: 'SELECTED PUBLICATIONS',
@@ -191,6 +192,7 @@ var I18N_LANG_DATA = {
         'I am Invited to present an <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">industry keynote at ICRA 2026</a>, titled "Towards the AlphaGo and ChatGPT Moments of Embodied AI."',
       item15: 'I am Invited to serve as an Area Chair for CoRL 2026.',
       item16: 'Three papers get accepted to IROS 2026.',
+      item17: 'Four papers get accepted to ECCV 2026.',
     },
     publications: {
       title: 'SELECTED PUBLICATIONS',
