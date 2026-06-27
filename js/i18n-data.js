@@ -170,7 +170,7 @@ var I18N_LANG_DATA = {
       desc3: '',
     },
     news: {
-      title: 'NEWS',
+      title: 'News',
       item1: 'Three papers get accepted to CVPR 2026.',
       // item2:
       //   'I am invited to to be a speaker in the Forum on Embodied Large Models and Reinforcement Learning at CEAI 2026.',
@@ -189,17 +189,17 @@ var I18N_LANG_DATA = {
       item12: 'Three papers get accepted to RSS 2026.',
       item13: 'Three papers get accepted to ICML 2026.',
       item14:
-        'I am Invited to present an <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">industry keynote at ICRA 2026</a>, titled "Towards the AlphaGo and ChatGPT Moments of Embodied AI."',
-      item15: 'I am Invited to serve as an Area Chair for CoRL 2026.',
+        'I am invited to present an <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">industry keynote at ICRA 2026</a>, titled "Towards the AlphaGo and ChatGPT Moments of Embodied AI."',
+      item15: 'I am invited to serve as an Area Chair for CoRL 2026.',
       item16: 'Three papers get accepted to IROS 2026.',
       item17: 'Four papers get accepted to ECCV 2026.',
     },
     publications: {
-      title: 'SELECTED PUBLICATIONS',
+      title: 'Selected Publications',
       subtitle: '*Equal contribution <span>&#8224;</span>Corresponding author',
     },
     awards: {
-      title: 'AWARDS AND HONORS',
+      title: 'Awards and Honors',
       item1: '2025 World Internet Conference Leading Technology Award.',
       item2:
         'Fortune magazine\'s 2025 "China\'s 40 Under 40 Business Leaders".',
@@ -217,7 +217,7 @@ var I18N_LANG_DATA = {
       item11: 'Beijing Youth May Fourth Medal.',
     },
     teaching: {
-      title: 'TEACHING',
+      title: 'Teaching',
       label: 'Undergraduate courses at Peking University:',
       item1:
         '<a href="https://dean.pku.edu.cn/service/web/courseDetail.php?flag=1&zxjhbh=BZ2526204834020_18972">Introduction to Embodied AI</a>, Spring 2026',
@@ -225,7 +225,7 @@ var I18N_LANG_DATA = {
         '<a href="https://dean.pku.edu.cn/service/web/courseDetail.php?flag=1&zxjhbh=BZ2526204834920_15659">Introduction to Computer Vision</a>, Spring 2026',
     },
     professional: {
-      title: 'PROFESSIONAL SERVICE',
+      title: 'Professional Service',
       item1:
         'Vice Chair, Embodied Intelligence Group, Artificial Intelligence Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
       // item2:
@@ -281,7 +281,7 @@ var I18N_LANG_DATA = {
         '<a>LDA-1B: A 1.6B-parameter, cross-ontology Latent World-Action Foundation Model. It is the first model to achieve effective, unified learning from data that is: 1) virtual-real hybrid, 2) human-robot mixed, 3) quality-heterogeneous, and 4) variably action-labeled.</a>',
     },
     opportunities: {
-      title: 'OPPORTUNITIES',
+      title: 'Opportunities',
       subTitle1: 'Graduate Admissions',
       tips: "Our team offers the following doctoral and master's positions each year:",
       li1: 'Doctoral positions at the Center for Frontiers in Computing Studies (CFCS), Peking University: Up to 2 openings per year. Admission for the 2027 intake is now closed.',
