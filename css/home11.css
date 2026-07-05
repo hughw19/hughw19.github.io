@@ -565,15 +565,14 @@ pre {
   box-sizing: border-box;
 }
 .main-selected .selected-item .button a::after {
-  content: '|';
+  content: '';
   position: absolute;
   width: 1px;
-  height: 1px;
-  top: 0;
- color: #000;
-  right: -5px;
+  height: 10px;
+  top: 8px;
+  background: #000;
+  right: -6px;
   border-radius: 2px;
-
 }
 .main-selected .selected-item .button a:last-child::after {
   content: '';
