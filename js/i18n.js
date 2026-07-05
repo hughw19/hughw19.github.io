@@ -88,6 +88,7 @@ function setOpportunitiesLang(lang) {
 function setLang(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
+  document.documentElement.setAttribute('data-lang', lang);
   updateLangUI(lang);
   renderI18n(getLangData(lang));
   document.getElementById('opportunities').setAttribute('data-lang', lang);
@@ -97,6 +98,7 @@ function setLang(lang) {
 // 初始化
 document.addEventListener('DOMContentLoaded', function () {
   // 语言初始化
+  document.documentElement.setAttribute('data-lang', currentLang);
   updateLangUI(currentLang);
   renderI18n(getLangData(currentLang));
   updateCrossSiteLinks(currentLang);
