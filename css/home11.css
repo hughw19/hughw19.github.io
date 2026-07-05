@@ -91,8 +91,8 @@ pre {
 }
 .main-swiper .slide-source div {
   opacity: 0.8;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 12px;
+  font-family: 'Lato';
+  font-size: 13px;
   color: #38393c;
   font-weight: 400;
   text-align: left;
@@ -138,7 +138,7 @@ pre {
 .sub-title {
   font-family: 'Lato';
   margin-top: 18px;
-  font-size: 24px;
+  font-size: 21px;
   color: #000;
   font-weight: 700;
 }
@@ -277,8 +277,8 @@ pre {
 }
 
 #opportunities .title img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: none;
   cursor: pointer;
 }
@@ -1079,16 +1079,17 @@ details.publications-toggle[open] .hidden-publications {
     font-size: 13px;
   }
   html[data-lang='zh'] .title {
-    font-size: 38px;
+    /* font-size: 38px; */
   }
+
   html[data-lang='zh'] .main-userinfo .info .info-right .info-title {
-    font-size: 35px;
+    /* font-size: 30px; */
   }
   html[data-lang='zh'] .main-userinfo .info .info-right a {
-    font-size: 15px;
+    font-size: 14px;
   }
   html[data-lang='zh'] .main-userinfo .info .info-right p {
-    font-size: 15px;
+    font-size: 14px;
   }
   html[data-lang='zh'] .info-right p i {
     font-size: 15px;
