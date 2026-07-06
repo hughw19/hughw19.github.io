@@ -165,56 +165,56 @@ var I18N_LANG_DATA = {
       subtitle3:
         'Research Supervisor of <a href="https://www.bza.edu.cn/">ZGC Academy</a>',
       desc1:
-        'I am a tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>. A Boyan Young Scholar at PKU, I have been selected for the National High-Level Overseas Talents Program. I founded and lead <a href="https://pku-epic.github.io/">the Embodied Perception and InteraCtion (EPIC) Lab</a>, with the mission of developing generalizable skills and embodied multimodal large models to advance embodied AGI in robotics. I also founded <a href="https://www.galbot.com">GALBOT</a>, serving as its CTO, and hold a concurrent position as a Research Mentor at the <a href="https://www.bza.edu.cn/">Zhongguancun Academy (ZGC Academy)</a>.',
-      desc2: '',
+        'I am a tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, and a Boya Young Scholar. I was selected for the National High-Level Overseas Talent Program. I have been selected for the National High-Level Overseas Talents Program.',
+      desc2: 'I founded and lead <a href="https://pku-epic.github.io/">the PKU Embodied Perception and Interaction Lab (EPIC Lab)</a>, with the mission of advancing general-purpose robotics through the development of embodied generalizable skills and embodied multimodal foundation models. I also founded Galbot, where I serve as CTO, and I am concurrently a research mentor at Zhongguancun Academy.',
       desc3: '',
     },
     news: {
-      title: 'News',
-      item1: 'Three papers get accepted to CVPR 2026.',
+      title: 'News & Updates',
+      item1: '3 papers accepted to CVPR 2026',
       // item2:
       //   'I am invited to to be a speaker in the Forum on Embodied Large Models and Reinforcement Learning at CEAI 2026.',
       // item3:
       //   'I am selected for the National Overseas High-Level Talent Program.',
       item4:
         'On February 9, 2026, President Xi Jinping conducted an inspection of the Galbot G1 robot in Beijing and met with Prof. He Wang, together with other leaders in technology innovation.',
-      item5: 'Six papers get accepted to ICRA 2026.',
-      item6: 'Three papers get accepted to ICLR 2026.',
+      item5: '3 papers accepted to ICLR 2026',
+      item6: '6 papers accepted to ICRA 2026',
       // item7: 'One paper gets accepted to RA-L.',
       // item8: 'I am invited to be a speaker in Humanoids Summit 2025.',
       item9:
         'Our project, the "Synthetic and real data-driven VLA embodied intelligence large model" was honored with the <a href="https://www.cac.gov.cn/2025-11/06/c_1764156715189004.htm" target="_blank">2025 World Internet Conference Leading Technology Award.</a>',
       item10: 'One paper gets accepted to RA-L.',
-      item11: 'I have been awarded the 36th Beijing Youth May Fourth Medal.',
-      item12: 'Three papers get accepted to RSS 2026.',
-      item13: 'Three papers get accepted to ICML 2026.',
+      item11: 'Recipient of the 36th Beijing May 4th Youth Medal',
+      item12: '3 papers accepted to RSS 2026',
+      item13: '3 papers accepted to ICML 2026',
       item14:
-        'I am invited to present an <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">industry keynote at ICRA 2026</a>, titled "Towards the AlphaGo and ChatGPT Moments of Embodied AI."',
-      item15: 'I am invited to serve as an Area Chair for CoRL 2026.',
-      item16: 'Three papers get accepted to IROS 2026.',
-      item17: 'Four papers get accepted to ECCV 2026.',
+        'Invited keynote speaker at <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026</a>, "Towards the AlphaGo and ChatGPT Moments of Embodied AI"',
+      item15: 'Invited Area Chair for CoRL 2026',
+      item16: '3 papers accepted to IROS 2026',
+      item17: '4 papers accepted to ECCV 2026',
     },
     publications: {
       title: 'Selected Publications',
       subtitle: '*Equal contribution <span>&#8224;</span>Corresponding author',
     },
     awards: {
-      title: 'Awards and Honors',
-      item1: '2025 World Internet Conference Leading Technology Award.',
+      title: 'Awards & Honors',
+      item1: '2025 World Internet Conference Leading Technology Award',
       item2:
         'Fortune magazine\'s 2025 "China\'s 40 Under 40 Business Leaders".',
       item3:
-        'MIT Technology Review\'s "Innovators Under 35 China" (TR35 China).',
-      item4: 'Ant InTech Award.',
-      item5: 'The Honorary Scholar of Intel China Academic Talent Program.',
-      item6: 'ICCV 2023 Best Paper Finalist.',
-      item7: 'ICRA 2023 Outstanding Manipulation Paper Finalist.',
+        '2025 MIT Technology Review "Innovators Under 35" (TR35 China)',
+      item4: '2024 Ant Technology Award',
+      item5: '2024 Intel China Academic Talent Program Honorary Scholar',
+      item6: '2023 ICCV Best Paper Candidate',
+      item7: '2023 ICRA Best Paper in Manipulation Candidate',
       item8:
-        '2022 World Artificial Intelligence Conference Youth Outstanding Paper Award.',
+        '2022 World Artificial Intelligence Conference Outstanding Young Paper Award',
       item9:
         '1st prize winner of <a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> (no external annotation track).',
       item10: 'Eurographics 2019 Best Paper Honorable Mention.',
-      item11: 'Beijing Youth May Fourth Medal.',
+      item11: '2026 Beijing Youth May Fourth Medal',
     },
     teaching: {
       title: 'Teaching',
@@ -227,79 +227,79 @@ var I18N_LANG_DATA = {
     professional: {
       title: 'Professional Service',
       item1:
-        'Vice Chair, Embodied Intelligence Group, Artificial Intelligence Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
+        'Deputy Director, Embodied Intelligence Group, Artificial Intelligence Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China',
       // item2:
       //   'Committee Member, Humanoid Robot Standardization Technical Committee, Ministry of Industry and Information Technology (MIIT), China.',
       // item3:
       //   'Expert Committee Member, Guangdong Artificial Intelligence and Robotics Industry Alliance.',
       item4:
-        'Committee Member, Third Session of the Science and Technology Innovation Advisory Committee, Shanghai Stock Exchange (SSE).',
+        'Member, 3rd Science and Technology Innovation Advisory Committee, Shanghai Stock Exchange',
       // item5:
       //   'Executive Committee Member, Intelligent Robotics Technical Committee, China Computer Federation (CCF).',
       item6:
-        'Member of the Standing Committee, Technical Committee on Embodied Intelligence, Chinese Association for Artificial Intelligence (CAAI).',
-      item7: 'Area Chair (AC): CVPR, ICCV, CoRL, etc.',
+        'Executive Committee Member, Embodied Intelligence Professional Committee, Chinese Association for Artificial Intelligence (CAAI)',
+      item7: 'Area Chair, major international conferences including CVPR, ICCV, and CoRL',
     },
     swiper: {
       slide1:
-        'On February 9, 2026, President Xi Jinping conducted an inspection of the Galbot G1 robot in Beijing and met with Prof. He Wang, together with other leaders in technology innovation.',
+        'On February 9, 2026, President Xi Jinping visited Beijing and met with Prof. He Wang, where Galbot G1 demonstrated its latest progress.',
       slide2:
-        'Galbot G1 took the stage at the 2026 CCTV Spring Festival Gala as the "Designated Embodied Large Model Robot." Alongside renowned actors Shen Teng and Ma Li, it demonstrated complex skills in real time through fully autonomous actions, including hand-rolling walnuts, folding clothes, and skewering sausages.',
+        'Galbot G1 appeared on the 2026 CCTV Spring Festival Gala as the "designated embodied AI robot," performing real-time autonomous tasks such as rolling walnut, folding clothing, and skewering sausage',
       slide3:
-        "LATENT is the world's first whole-body, real-time intelligent planning and control algorithm developed for humanoid robots in complex tennis match play. It enables humanoid robots to execute sustained, dynamic rallies.",
+        "LATENT: The world's first whole-body real-time intelligent planning and control algorithm for humanoid robots in complex tennis rallies, enabling long-horizon dynamic tennis playing.",
       slide4:
-        'GraspVLA is the world\'s first end-to-end embodied grasping foundation model. Its pre-training is entirely based on billion-scale "vision-language-action" synthetic data.',
+        'GraspVLA: The world\'s first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.',
       slide5:
-        "GroceryVLA is the world's first end-to-end embodied VLA large model designed for the retail industry.",
+        "GroceryVLA: The world's first end-to-end embodied foundation model designed for retail environments.",
       slide6:
-        "NavFoM: The world's first cross-embodiment omnidirectional panoramic navigation foundation model. Its goal is to enable robots to autonomously perceive the world and decide where to go and how to get there entirely on their own in completely unknown environments.",
+        "NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.",
       slide7:
-        'DexNDM: A dexterous hand neural dynamics model that, for the first time, enables a general-purpose dexterous hand to stably rotate complex objects\u2014whether elongated, miniature, or irregularly shaped\u2014in any orientation and along any axis.',
+        'DexNDM: A neural dynamics model that enables dexterous hands to achieve stable rotation of complex objects (slender, tiny, or irregular) under arbitrary poses and orientations.',
       slide8:
         'Any2Track: a two-stage reinforcement learning framework that enables a single policy to accurately track diverse, complex motions while maintaining robust online adaptability to real-world dynamic disturbances.',
       slide9:
-        'LDA-1B: A 1.6B-parameter, cross-ontology Latent World-Action Foundation Model. It is the first model to achieve effective, unified learning from data that is: 1) virtual-real hybrid, 2) human-robot mixed, 3) quality-heterogeneous, and 4) variably action-labeled.',
+        'LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.',
     },
     swiperPhone: {
       slide1:
-        '<a href="https://mp.weixin.qq.com/s/rUBVh4CJnax_vmlMP1Pegg">On February 9, 2026, President Xi Jinping conducted an inspection of the Galbot G1 robot in Beijing and met with Prof. He Wang, together with other leaders in technology innovation.</a>',
+        '<a href="https://mp.weixin.qq.com/s/rUBVh4CJnax_vmlMP1Pegg">On February 9, 2026, President Xi Jinping visited Beijing and met with Prof. He Wang, where Galbot G1 demonstrated its latest progress.</a>',
       slide2:
-        '<a>Galbot G1 took the stage at the 2026 CCTV Spring Festival Gala as the "Designated Embodied Large Model Robot." Alongside renowned actors Shen Teng and Ma Li, it demonstrated complex skills in real time through fully autonomous actions, including hand-rolling walnuts, folding clothes, and skewering sausages.</a>',
+        '<a>Galbot G1 appeared on the 2026 CCTV Spring Festival Gala as the "designated embodied AI robot," performing real-time autonomous tasks such as rolling walnut, folding clothing, and skewering sausage</a>',
       slide3:
-        "<a>LATENT is the world's first whole-body, real-time intelligent planning and control algorithm developed for humanoid robots in complex tennis match play. It enables humanoid robots to execute sustained, dynamic rallies.</a>",
+        "<a>LATENT: The world's first whole-body real-time intelligent planning and control algorithm for humanoid robots in complex tennis rallies, enabling long-horizon dynamic tennis playing.</a>",
       slide4:
-        '<a>GraspVLA is the world\'s first end-to-end embodied grasping foundation model. Its pre-training is entirely based on billion-scale "vision-language-action" synthetic data.</a>',
+        '<a>GraspVLA: The world\'s  first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.</a>',
       slide5:
-        "<a>GroceryVLA is the world's first end-to-end embodied VLA large model designed for the retail industry.</a>",
+        "<a>GroceryVLA: The world's first end-to-end embodied foundation model designed for retail environments.</a>",
       slide6:
-        "<a>NavFoM: The world's first cross-embodiment omnidirectional panoramic navigation foundation model. Its goal is to enable robots to autonomously perceive the world and decide where to go and how to get there entirely on their own in completely unknown environments.</a>",
+        "<a>NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.</a>",
       slide7:
-        '<a>DexNDM: A dexterous hand neural dynamics model that, for the first time, enables a general-purpose dexterous hand to stably rotate complex objects\u2014whether elongated, miniature, or irregularly shaped\u2014in any orientation and along any axis.</a>',
+        '<a>DexNDM: A neural dynamics model that enables dexterous hands to achieve stable rotation of complex objects (slender, tiny, or irregular) under arbitrary poses and orientations.</a>',
       slide8:
         '<a>Any2Track: a two-stage reinforcement learning framework that enables a single policy to accurately track diverse, complex motions while maintaining robust online adaptability to real-world dynamic disturbances.</a>',
       slide9:
-        '<a>LDA-1B: A 1.6B-parameter, cross-ontology Latent World-Action Foundation Model. It is the first model to achieve effective, unified learning from data that is: 1) virtual-real hybrid, 2) human-robot mixed, 3) quality-heterogeneous, and 4) variably action-labeled.</a>',
+        '<a>LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.</a>',
     },
     opportunities: {
-      title: 'Opportunities',
+      title: 'Admissions & Recruitment',
       subTitle1: 'Graduate Admissions',
-      tips: "Our team offers the following doctoral and master's positions each year:",
-      li1: 'Doctoral positions at the Center for Frontiers in Computing Studies (CFCS), Peking University: Up to 2 openings per year. Admission for the 2027 intake is now closed.',
-      li2: 'Doctoral co-supervision at the Institute of Automation, Chinese Academy of Sciences (CASIA): multiple openings.',
-      li3: 'Doctoral co-supervision at ZGC College: multiple openings (partner institutions include USTC, Shanghai Jiao Tong University, Zhejiang University, etc.).',
-      li4: "Doctoral positions for international students at Peking University: 1 opening.",
-      li7: "Master’s positions for international students at Peking University: 1 opening.",
-      p1: 'In addition, we maintain close collaborations with the Institute for Interdisciplinary Information Sciences at Tsinghua University and the Shanghai Qi Zhi Institute. Each year, a number of students are recommended for admission to pursue academic or engineering doctoral degrees (PhD/EngD) at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
-      p2: "We welcome undergraduate and master's students with research experience in embodied intelligence and a publication record to contact me at least one year before the corresponding application deadline. Priority will be given to applicants who have completed internships with our research group.",
+      tips: "Our team offer the following doctoral and master's admissions each year:",
+      li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions (2027 intake already full)',
+      li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
+      li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
+      li4: "PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position",
+      li7: "Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position",
+      p1: 'We also maintain close collaboration with the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, and the Shanghai Qi Zhi Institute, through which many students are recommended to pursue academic or engineering PhDs at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
+      p2: "We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.",
       subTitle2: 'Visiting Students and Research Interns',
-      p3: 'We welcome outstanding undergraduates and graduate students from top universities worldwide to apply for on-site research internships with a minimum duration of six months.',
-      p4: 'The internship is based at the Peking University – Galbot Embodied Intelligence Joint Laboratory (located in Zhongguancun Dinghao Building), providing a first-class research environment along with competitive living and accommodation stipends.',
-      p5: 'Over the past few years, we have hosted over a hundred interns, who have collectively published hundreds of papers at top-tier international conferences and journals. This experience provides them with a distinct advantage in PhD applications. Our alumni have been admitted to doctoral programs at Peking University and Tsinghua University, joint PhD programs with institutes like CASIA and ZGC College, as well as world-leading universities such as Stanford, MIT, UC Berkeley, CMU, UCLA, and UCSD.',
-      subTitle3: 'Full-time Positions',
-      p6: 'At Galbot, we are continuously hiring for:',
-      li5: 'Full‑time Research Scientists',
-      li6: 'Full‑time Engineers',
-      p7: 'Those interested are encouraged to reach out by email: <a href="mailto:hewang@pku.edu.cn">hewang@pku.edu.cn</a>',
+      p3: 'We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.',
+      p4: 'The internship is based at the PKU–Galbot Embodied Intelligence Joint Lab in Beijing, offering a world-class research environment along with competitive living and accommodation stipends.',
+      p5: 'Over the past several years, we have hosted more than a hundred interns, who have collectively published over a hundred papers in top-tier international conferences and journals. Alumni of our internship program have a strong track record in doctoral admissions, with many accepted into joint PhD programs at PKU, Tsinghua, the Institute of Automation of the Chinese Academy of Sciences, and Zhongguancun Academy, as well as doctoral programs at Stanford, MIT, Berkeley, CMU, UCLA, UCSD, and other world-leading universities.',
+      subTitle3: 'Full-Time Positions',
+      p6: 'Galbot is continuously hiring:',
+      li5: 'Full-time Research Scientists',
+      li6: 'Full-time Engineers',
+      p7: 'Interested candidates are welcome to contact: <a href="mailto:hewang@pku.edu.cn">hewang@pku.edu.cn</a>',
     },
   },
 };
