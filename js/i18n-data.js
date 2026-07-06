@@ -48,7 +48,7 @@ var I18N_LANG_DATA = {
       item17: '4篇工作被 ECCV 2026 收录。',
     },
     publications: {
-      title: 'SELECTED PUBLICATIONS',
+      title: 'Selected Publications',
       subtitle: '*Equal contribution <span>&#8224;</span>Corresponding author',
     },
     awards: {
