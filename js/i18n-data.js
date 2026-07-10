@@ -46,8 +46,8 @@ var I18N_LANG_DATA = {
       item15: '受邀担任 CoRL 2026 领域主席。',
       item16: '3篇工作被 IROS 2026 收录。',
       item17: '4篇工作被 ECCV 2026 收录。',
-      item18: '当选中国科协第十一届全国委员会委员',
-      item19: '荣获RSS 2026 Best Paper Award (Finalist)',
+      item18: '当选中国科协第十一届全国委员会委员。',
+      item19: '荣获RSS 2026 Best Paper Award (Finalist)。',
     },
     publications: {
       title: 'Selected Publications',
