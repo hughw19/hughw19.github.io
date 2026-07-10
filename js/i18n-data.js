@@ -46,6 +46,8 @@ var I18N_LANG_DATA = {
       item15: '受邀担任 CoRL 2026 领域主席。',
       item16: '3篇工作被 IROS 2026 收录。',
       item17: '4篇工作被 ECCV 2026 收录。',
+      item18: '当选中国科协第十一届全国委员会委员',
+      item19: '荣获RSS 2026 Best Paper Award (Finalist)',
     },
     publications: {
       title: 'Selected Publications',
@@ -83,6 +85,7 @@ var I18N_LANG_DATA = {
       // item5: '中国计算机学会智能机器人专业委员会执行委员',
       item6: '中国人工智能学会具身智能专业委员会常务委员',
       item7: '国际学术会议领域主席：CVPR、ICCV、CoRL等',
+      item8: '中国科协第十一届全国委员会委员',
     },
     swiper: {
       slide1:
@@ -166,7 +169,8 @@ var I18N_LANG_DATA = {
         'Research Supervisor of <a href="https://www.bza.edu.cn/">ZGC Academy</a>',
       desc1:
         'I am a tenure-track Assistant Professor at <a href="https://cfcs.pku.edu.cn/english">the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, and a Boya Young Scholar. I was selected for the National High-Level Overseas Talent Program. I have been selected for the National High-Level Overseas Talents Program.',
-      desc2: 'I founded and lead <a href="https://pku-epic.github.io/">the PKU Embodied Perception and Interaction Lab (EPIC Lab)</a>, with the mission of advancing general-purpose robotics through the development of embodied generalizable skills and embodied multimodal foundation models. I also founded Galbot, where I serve as CTO, and I am concurrently a research mentor at Zhongguancun Academy.',
+      desc2:
+        'I founded and lead <a href="https://pku-epic.github.io/">the PKU Embodied Perception and Interaction Lab (EPIC Lab)</a>, with the mission of advancing general-purpose robotics through the development of embodied generalizable skills and embodied multimodal foundation models. I also founded Galbot, where I serve as CTO, and I am concurrently a research mentor at Zhongguancun Academy.',
       desc3: '',
     },
     news: {
@@ -193,6 +197,9 @@ var I18N_LANG_DATA = {
       item15: 'Invited Area Chair for CoRL 2026',
       item16: '3 papers accepted to IROS 2026',
       item17: '4 papers accepted to ECCV 2026',
+      item18:
+        'Elected Member of the 11th National Committee of the China Association for Science and Technology',
+      item19: 'Recipient of the RSS 2026 Best Paper Award (Finalist)',
     },
     publications: {
       title: 'Selected Publications',
@@ -203,8 +210,7 @@ var I18N_LANG_DATA = {
       item1: '2025 World Internet Conference Leading Technology Award',
       item2:
         'Fortune magazine\'s 2025 "China\'s 40 Under 40 Business Leaders".',
-      item3:
-        '2025 MIT Technology Review "Innovators Under 35" (TR35 China)',
+      item3: '2025 MIT Technology Review "Innovators Under 35" (TR35 China)',
       item4: '2024 Ant Technology Award',
       item5: '2024 Intel China Academic Talent Program Honorary Scholar',
       item6: '2023 ICCV Best Paper Candidate',
@@ -238,7 +244,9 @@ var I18N_LANG_DATA = {
       //   'Executive Committee Member, Intelligent Robotics Technical Committee, China Computer Federation (CCF).',
       item6:
         'Executive Committee Member, Embodied Intelligence Professional Committee, Chinese Association for Artificial Intelligence (CAAI)',
-      item7: 'Area Chair, major international conferences including CVPR, ICCV, and CoRL',
+      item7:
+        'Area Chair, major international conferences including CVPR, ICCV, and CoRL',
+      item8: 'Member, the 11th National Committee of the China Association for Science and Technology (CAST)',
     },
     swiper: {
       slide1:
@@ -248,11 +256,11 @@ var I18N_LANG_DATA = {
       slide3:
         "LATENT: The world's first whole-body real-time intelligent planning and control algorithm for humanoid robots in complex tennis rallies, enabling long-horizon dynamic tennis playing.",
       slide4:
-        'GraspVLA: The world\'s first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.',
+        "GraspVLA: The world's first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.",
       slide5:
         "GroceryVLA: The world's first end-to-end embodied foundation model designed for retail environments.",
       slide6:
-        "NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.",
+        'NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.',
       slide7:
         'DexNDM: A neural dynamics model that enables dexterous hands to achieve stable rotation of complex objects (slender, tiny, or irregular) under arbitrary poses and orientations.',
       slide8:
@@ -268,11 +276,11 @@ var I18N_LANG_DATA = {
       slide3:
         "<a>LATENT: The world's first whole-body real-time intelligent planning and control algorithm for humanoid robots in complex tennis rallies, enabling long-horizon dynamic tennis playing.</a>",
       slide4:
-        '<a>GraspVLA: The world\'s  first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.</a>',
+        "<a>GraspVLA: The world's  first end-to-end embodied grasping foundation model, pre-trained entirely on 1 billion frames of synthetic vision-language-action data.</a>",
       slide5:
         "<a>GroceryVLA: The world's first end-to-end embodied foundation model designed for retail environments.</a>",
       slide6:
-        "<a>NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.</a>",
+        '<a>NavFoM: The world’s first cross-embodiment, omnidirectional navigation foundation model, enabling robots to perceive and navigate unknown environments autonomously.</a>',
       slide7:
         '<a>DexNDM: A neural dynamics model that enables dexterous hands to achieve stable rotation of complex objects (slender, tiny, or irregular) under arbitrary poses and orientations.</a>',
       slide8:
@@ -287,10 +295,10 @@ var I18N_LANG_DATA = {
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions (2027 intake already full)',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
       li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
-      li4: "PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position",
-      li7: "Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position",
+      li4: 'PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position',
+      li7: 'Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position',
       p1: 'We also maintain close collaboration with the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, and the Shanghai Qi Zhi Institute, through which many students are recommended to pursue academic or engineering PhDs at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
-      p2: "We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.",
+      p2: 'We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.',
       subTitle2: 'Visiting Students and Research Interns',
       p3: 'We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.',
       p4: 'The internship is based at the PKU–Galbot Embodied Intelligence Joint Lab in Beijing, offering a world-class research environment along with competitive living and accommodation stipends.',
