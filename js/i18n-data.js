@@ -105,6 +105,8 @@ var I18N_LANG_DATA = {
         'Any2Track：史上最强抗干扰全身动作追踪系统，能够在复杂干扰环境下稳健平衡、精准实现运动控制，实现 “应对任意干扰、追踪任意运动”。',
       slide9:
         'LDA-1B：1.6B参数的跨本体“隐式世界-动作基础模型“，首次在数据层面实现虚实共融、人机混合、质量参差、有无动作标签的数据统一有效利用。',
+      slide10:
+        'WAM-TTT: 全球首个面向具身智能大模型的测试时后训练框架。让机器人在完成技能学习并进入真实部署场景后，能够在无需大量机器人轨迹数据、无需人类动作标注的前提下，仅需少量人类数据，即可快速完成对当前环境的部署适用。',
     },
     swiperPhone: {
       slide1:
@@ -124,6 +126,8 @@ var I18N_LANG_DATA = {
         '<a>Any2Track：史上最强抗干扰全身动作追踪系统，能够在复杂干扰环境下稳健平衡、精准实现运动控制，实现 “应对任意干扰、追踪任意运动”。</a>',
       slide9:
         '<a>LDA-1B：1.6B参数的跨本体“隐式世界-动作基础模型“，首次在数据层面实现虚实共融、人机混合、质量参差、有无动作标签的数据统一有效利用。</a>',
+      slide10:
+        '<a>LWAM-TTT: 全球首个面向具身智能大模型的测试时后训练框架。让机器人在完成技能学习并进入真实部署场景后，能够在无需大量机器人轨迹数据、无需人类动作标注的前提下，仅需少量人类数据，即可快速完成对当前环境的部署适用。',
     },
     opportunities: {
       title: '招聘 & 招生机会',
@@ -246,7 +250,8 @@ var I18N_LANG_DATA = {
         'Executive Committee Member, Embodied Intelligence Professional Committee, Chinese Association for Artificial Intelligence (CAAI)',
       item7:
         'Area Chair, major international conferences including CVPR, ICCV, and CoRL',
-      item8: 'Member, the 11th National Committee of the China Association for Science and Technology (CAST)',
+      item8:
+        'Member, the 11th National Committee of the China Association for Science and Technology (CAST)',
     },
     swiper: {
       slide1:
@@ -267,6 +272,8 @@ var I18N_LANG_DATA = {
         'Any2Track: a two-stage reinforcement learning framework that enables a single policy to accurately track diverse, complex motions while maintaining robust online adaptability to real-world dynamic disturbances.',
       slide9:
         'LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.',
+      slide10:
+        'WAM-TTT: The world’s first test-time training framework for large embodied AI models. It enables robots to rapidly adapt to new environments post-deployment using only minimal human demonstrations—eliminating the need for massive robot trajectory datasets or explicit action annotations.',
     },
     swiperPhone: {
       slide1:
@@ -287,6 +294,8 @@ var I18N_LANG_DATA = {
         '<a>Any2Track: a two-stage reinforcement learning framework that enables a single policy to accurately track diverse, complex motions while maintaining robust online adaptability to real-world dynamic disturbances.</a>',
       slide9:
         '<a>LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.</a>',
+      slide10:
+        '<a>WAM-TTT: The world’s first test-time training framework for large embodied AI models. It enables robots to rapidly adapt to new environments post-deployment using only minimal human demonstrations—eliminating the need for massive robot trajectory datasets or explicit action annotations.</a>',
     },
     opportunities: {
       title: 'Admissions & Recruitment',
