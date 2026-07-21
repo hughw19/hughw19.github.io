@@ -64,9 +64,11 @@ var I18N_LANG_DATA = {
       item7: '2023年国际机器人与自动化大会(ICRA)最佳操纵论文候选',
       item8: '2022年世界人工智能大会青年优秀论文奖',
       item9:
-        '<a href="https://sapien.ucsd.edu/challenges/maniskill2021/">2021年ICLR机器人泛化技能挑战赛</a>ManiSkill无标注赛道冠军',
+        '<a style="font-size:14px;" href="https://sapien.ucsd.edu/challenges/maniskill2021/">2021年ICLR机器人泛化技能挑战赛</a>ManiSkill无标注赛道冠军',
       item10: '2019年欧洲图形学会议最佳论文提名',
       item11: '2026年北京青年五四奖章',
+      item12: 'RSS 2026 最佳论文候选',
+      item13: '<a style="font-size:14px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026年度AI人物</a>',
     },
     teaching: {
       title: '教学',
@@ -131,9 +133,10 @@ var I18N_LANG_DATA = {
     },
     opportunities: {
       title: '招聘 & 招生机会',
-      subTitle1: '硕博招生',
+      subTitle1:
+        '硕博招生<span style="font-size: 14px;color:#38393c;font-weight:400;">（27年入学名额已无,28年入学接受实习中）</span>',
       tips: '我们团队每年提供以下博士/硕士招生名额：',
-      li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名（27年入学名额已无）；',
+      li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名；',
       li2: '中科院自动化所联合培养博士：多名；',
       li3: '中关村学院联合培养博士：多名（联合学校有中科大、上交及浙大等）；',
       li4: '北京大学面向港澳台及国际学生博士名额：1名；',
@@ -217,14 +220,16 @@ var I18N_LANG_DATA = {
       item3: '2025 MIT Technology Review "Innovators Under 35" (TR35 China)',
       item4: '2024 Ant Technology Award',
       item5: '2024 Intel China Academic Talent Program Honorary Scholar',
-      item6: '2023 ICCV Best Paper Candidate',
-      item7: '2023 ICRA Best Paper in Manipulation Candidate',
+      item6: '2023 ICCV Best Paper Award - Finalist',
+      item7: '2023 ICRA Outstanding Manipulation Paper Award - Finalist',
       item8:
         '2022 World Artificial Intelligence Conference Outstanding Young Paper Award',
       item9:
-        '1st prize winner of <a href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> (no external annotation track).',
+        '1st prize winner of <a style="font-size:16px;" href="https://sapien.ucsd.edu/challenges/maniskill2021/">SAPIEN ManiSkill Challenge 2021</a> (no external annotation track).',
       item10: 'Eurographics 2019 Best Paper Honorable Mention.',
       item11: '2026 Beijing Youth May Fourth Medal',
+      item12: '2026 RSS  Outstanding Paper Award - Finalist',
+      item13: '<a style="font-size:16px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026 AI Person of the Year, 2026 China AI Gala</a>',
     },
     teaching: {
       title: 'Teaching',
@@ -249,7 +254,7 @@ var I18N_LANG_DATA = {
       item6:
         'Executive Committee Member, Embodied Intelligence Professional Committee, Chinese Association for Artificial Intelligence (CAAI)',
       item7:
-        'Area Chair, major international conferences including CVPR, ICCV, and CoRL',
+        'Area Chair, top international conferences including CVPR, ICCV, and CoRL, etc.',
       item8:
         'Member, the 11th National Committee of the China Association for Science and Technology (CAST)',
     },
@@ -273,7 +278,7 @@ var I18N_LANG_DATA = {
       slide9:
         'LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.',
       slide10:
-        'WAM-TTT: The world’s first test-time training framework for large embodied AI models. It enables robots to rapidly adapt to new environments post-deployment using only minimal human demonstrations—eliminating the need for massive robot trajectory datasets or explicit action annotations.',
+        'WAM-TTT: The world’s first test-time training framework for embodied foundation models. It enables robots to rapidly adapt to new environments during deployment using only minimal human video demonstrations — eliminating the need for large-scale robot trajectory data or explicit action annotations.',
     },
     swiperPhone: {
       slide1:
@@ -295,13 +300,13 @@ var I18N_LANG_DATA = {
       slide9:
         '<a>LDA-1B: A 1.6B-parameter cross-embodiment "Latent World-Action Foundation Model", which for the first time enables unified and effective utilization of heterogeneous data—including real and simulated data, human-robot mixed data, labeled and unlabeled action data.</a>',
       slide10:
-        '<a>WAM-TTT: The world’s first test-time training framework for large embodied AI models. It enables robots to rapidly adapt to new environments post-deployment using only minimal human demonstrations—eliminating the need for massive robot trajectory datasets or explicit action annotations.</a>',
+        '<a>WAM-TTT: The world’s first test-time training framework for embodied foundation models. It enables robots to rapidly adapt to new environments during deployment using only minimal human video demonstrations — eliminating the need for large-scale robot trajectory data or explicit action annotations.</a>',
     },
     opportunities: {
       title: 'Admissions & Recruitment',
-      subTitle1: 'Graduate Admissions',
+      subTitle1: 'Graduate Admissions<span style="font-size: 14px;color:#38393c;font-weight:400;">（2027 intake already full, 2028 intake currently accepting internships.）</span>',
       tips: "Our team offer the following doctoral and master's admissions each year:",
-      li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions (2027 intake already full)',
+      li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
       li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
       li4: 'PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position',
