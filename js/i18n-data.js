@@ -134,7 +134,7 @@ var I18N_LANG_DATA = {
     opportunities: {
       title: '招聘 & 招生机会',
       subTitle1:
-        '硕博招生<span style="font-size: 14px;color:#38393c;font-weight:400;">（27年入学名额已无,28年入学接受实习中）</span>',
+        '硕博招生<span style="font-size: 14px;color:#38393c;font-weight:400;">（27年入学名额已无，28年入学接受实习中）</span>',
       tips: '我们团队每年提供以下博士/硕士招生名额：',
       li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名；',
       li2: '中科院自动化所联合培养博士：多名；',
