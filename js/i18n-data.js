@@ -197,7 +197,7 @@ var I18N_LANG_DATA = {
       item20:
         'Invited to speak at the Opening Ceremony of the China International Big Data Industry Expo, with a talk titled “Driving World-Class Breakthroughs in Embodied Intelligence.”',
       item21:
-        'Our team swept all three gold medals in Home, Catering, and Retail scenarios at the 2nd World Humanoid Robot Games, achieving a 100% win rate with fully autonomous performance.',
+        'Our team swept all three gold medals in Home, Catering, and Retail scenarios at World Robot Contest 2026, achieving a 100% win rate with fully autonomous performance.',
       item22:
         'Invited to speak at the Main Forum of the 2026 World Robot Conference, with a talk titled “<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">Towards Breakthrough Moments in Embodied Intelligence and Humanoid Robotics</a>.”',
       item23:
