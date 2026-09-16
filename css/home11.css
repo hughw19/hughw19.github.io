@@ -491,7 +491,7 @@ pre {
   width: 216px;
   height: 145px;
   margin-right: 24px;
-  /* object-fit: cover; */
+  object-fit: contain;
 }
 .main-selected .selected-item .item-right {
   flex: 1;
@@ -522,6 +522,10 @@ pre {
   color: #38393c;
   font-weight: 400;
   margin-top: 3px;
+}
+.main-selected .selected-item p.red {
+  color: #ff0000;
+
 }
 .main-selected .selected-item p b {
   font-family: 'Lato';
@@ -742,7 +746,7 @@ pre p {
     width: 1.23rem;
     height: 0.75rem;
     margin-right: 0.14rem;
-    object-fit: cover;
+    object-fit: contain;
   }
   .main-selected .selected-item .item-title {
     color: #171718;
@@ -977,6 +981,9 @@ pre p {
     width: 2.62rem;
     height: 1.8rem;
     border-radius: 0.05rem;
+  }
+  .red{
+    color: red;
   }
   ::-webkit-scrollbar {
     width: 0px;

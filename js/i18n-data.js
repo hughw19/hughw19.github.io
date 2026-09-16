@@ -40,6 +40,7 @@ var I18N_LANG_DATA = {
         '团队在第二届世界人形机器人运动会中包揽家庭/餐饮/商超三金，全自主胜率100%。',
       item22:
         '受邀在2026世界机器人大会作主论坛报告，主题：“<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">推动具身智能与人形机器人的核心突破时刻</a>”。',
+      item23: '入选央视《2026中国·AI盛典》“年度AI人物”。',
     },
     publications: {
       title: 'Selected Publications',
@@ -61,7 +62,7 @@ var I18N_LANG_DATA = {
       item11: '2026年北京青年五四奖章',
       item12: 'RSS 2026 最佳论文候选',
       item13:
-        '<a style="font-size:14px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026年度AI人物</a>',
+        '<a style="font-size:14px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026年央视《2026中国·AI盛典》“年度AI人物”</a>',
     },
     teaching: {
       title: '教学',
@@ -186,19 +187,21 @@ var I18N_LANG_DATA = {
       title: 'News & Updates',
       item13: '9 papers accepted to CoRL 2026.',
       item14:
-        'Invited keynote speaker at <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026</a>, "Towards the AlphaGo and ChatGPT Moments of Embodied AI"',
-      item15: 'Invited Area Chair for CoRL 2026',
-      item16: '3 papers accepted to IROS 2026',
-      item17: '4 papers accepted to ECCV 2026',
+        'Invited keynote speaker at <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026</a>, "Towards the AlphaGo and ChatGPT Moments of Embodied AI".',
+      item15: 'Invited Area Chair for CoRL 2026.',
+      item16: '3 papers accepted to IROS 2026.',
+      item17: '4 papers accepted to ECCV 2026.',
       item18:
-        'Elected Member of the 11th National Committee of the China Association for Science and Technology',
-      item19: 'Recipient of the RSS 2026 Best Paper Award (Finalist)',
+        'Elected Member of the 11th National Committee of the China Association for Science and Technology.',
+      item19: 'Recipient of the RSS 2026 Best Paper Award (Finalist).',
       item20:
         'Invited to speak at the Opening Ceremony of the China International Big Data Industry Expo, with a talk titled “Driving World-Class Breakthroughs in Embodied Intelligence.”',
       item21:
         'Our team swept all three gold medals in Home, Catering, and Retail scenarios at the 2nd World Humanoid Robot Games, achieving a 100% win rate with fully autonomous performance.',
       item22:
         'Invited to speak at the Main Forum of the 2026 World Robot Conference, with a talk titled “<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">Towards Breakthrough Moments in Embodied Intelligence and Humanoid Robotics</a>.”',
+      item23:
+        'Selected as an “AI Figure of the Year” at CCTV’s 2026 China AI Gala.',
     },
     publications: {
       title: 'Selected Publications',
@@ -311,7 +314,7 @@ var I18N_LANG_DATA = {
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
       li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
-      li8: 'Peking University–Galbot Joint Ph.D. Program: 2 positions',
+      li8: 'Joint PhD with Galbot: 2 positions (enrolled at PKU)',
       // li4: 'PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position',
       // li7: 'Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position',
       p1: 'We also maintain close collaboration with the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, and the Shanghai Qi Zhi Institute, through which many students are recommended to pursue academic or engineering PhDs at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
