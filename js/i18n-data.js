@@ -26,8 +26,7 @@ var I18N_LANG_DATA = {
     },
     news: {
       title: '动态',
-      item13:
-        '9篇工作被 CoRL 2026 收录。',
+      item13: '9篇工作被 CoRL 2026 收录。',
       item14:
         '受邀在 <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026发表行业主题演讲</a>，主题为“Towards the AlphaGo and ChatGPT Moments of Embodied AI”。',
       item15: '受邀担任 CoRL 2026 领域主席。',
@@ -35,10 +34,10 @@ var I18N_LANG_DATA = {
       item17: '4篇工作被 ECCV 2026 收录。',
       item18: '当选中国科协第十一届全国委员会委员。',
       item19: '荣获RSS 2026 Best Paper Award (Finalist)。',
-      item20:
-        '受邀在中国国际大数据产业博览会开幕式作报告，主题：“推动具身智能世界级核心突破”。',
+      // item20:
+      //   '受邀在中国国际大数据产业博览会开幕式作报告，主题：“推动具身智能世界级核心突破”。',
       item21:
-        '团队在第二届世界人形机器人运动会中包揽家庭/餐饮/商超三金，全自主胜率100%',
+        '团队在第二届世界人形机器人运动会中包揽家庭/餐饮/商超三金，全自主胜率100%。',
       item22:
         '受邀在2026世界机器人大会作主论坛报告，主题：“<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">推动具身智能与人形机器人的核心突破时刻</a>”。',
     },
@@ -104,9 +103,9 @@ var I18N_LANG_DATA = {
       slide10:
         'WAM-TTT: 全球首个面向具身智能大模型的测试时后训练框架。让机器人在完成技能学习并进入真实部署场景后，能够在无需大量机器人轨迹数据、无需人类动作标注的前提下，仅需少量人类数据，即可快速完成对当前环境的部署适用。',
       slide11:
-        '世界首次人机网球混双对打，现场直播连续100回合对拉，零失误。在开放动态物理环境中成功实现了感知、决策与全身运动控制的毫秒级实时闭环，验证了端到端大模型在复杂多智能体博弈场景下的高鲁棒性与泛化能力。',
-      slide12:
-        '全球首个具备自主学习能力的人形机器人Galbot ET1 ，搭载银河通用自研的物理世界原生智能体AstraBrain-Agent，可实时观察周围环境、理解语言指令，并动态规划自身行为和动作序列。',
+        '世界首次人机网球混双对打，现场直播连续100回合对拉，零失误。在开放动态物理环境中成功实现了感知、决策与全身运动控制的高秒级实时闭环，验证了端到端大模型在复杂智能体博弈场景下的高鲁棒性与泛化能力。',
+      // slide12:
+      //   '全球首个具备自主学习能力的人形机器人Galbot ET1，搭载银河通用自研的物理世界原生智能体AstraBrain-Agent，可实时观察周围环境、理解语言指令，并动态规划自身行为和动作序列。',
     },
     swiperPhone: {
       slide1:
@@ -135,14 +134,15 @@ var I18N_LANG_DATA = {
     },
     opportunities: {
       title: '招聘 & 招生机会',
-      subTitle1: '硕博招生 <span style="font-size: 16px;font-weight: normal;">（27年入学名额已无，28年入学接受实习中）</span>',
+      subTitle1:
+        '硕博招生 <span style="font-size: 16px;font-weight: normal;">（27年入学名额已无，28年入学接受实习中）</span>',
       tips: '我们团队每年提供以下博士/硕士招生名额：',
       li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名；',
       li2: '中科院自动化所联合培养博士：多名；',
       li3: '中关村学院联合培养博士：多名（联合学校有中科大、上交及浙大等）；',
       li8: '北京大学与银河通用机器人联合培养博士：2名；',
-      li4: '北京大学面向港澳台及国际学生博士名额：1名；',
-      li7: '北京大学面向港澳台及国际学生硕士名额：1名。',
+      // li4: '北京大学面向港澳台及国际学生博士名额：1名；',
+      // li7: '北京大学面向港澳台及国际学生硕士名额：1名。',
       p1: '此外，我们与<b>清华大学交叉信息研究院、上海期智研究院</b>保持紧密合作，每年多名学生经推荐进入<b>清华大学、上海交通大学等</b>高校攻读<b>学术型或工程型博士。</b>',
       p2: '欢迎具备具身智能研究经验和论文发表经历的本科生、硕士生在对应申请截止日期前<b>至少提前一年</b>联系我。<b>优先录取有本团队实习经历的学生。</b>',
       subTitle2: '访问学生与科研实习生',
@@ -184,8 +184,7 @@ var I18N_LANG_DATA = {
     },
     news: {
       title: 'News & Updates',
-      item13:
-        '9 papers accepted to CoRL 2026.',
+      item13: '9 papers accepted to CoRL 2026.',
       item14:
         'Invited keynote speaker at <a href="https://2026.ieee-icra.org/program/industry-keynotes/" target="_blank">ICRA 2026</a>, "Towards the AlphaGo and ChatGPT Moments of Embodied AI"',
       item15: 'Invited Area Chair for CoRL 2026',
@@ -195,11 +194,11 @@ var I18N_LANG_DATA = {
         'Elected Member of the 11th National Committee of the China Association for Science and Technology',
       item19: 'Recipient of the RSS 2026 Best Paper Award (Finalist)',
       item20:
-        'Keynote at CIIDIE opening ceremony: “Driving World-Class Breakthroughs in Embodied Intelligence.”',
+        'Invited to speak at the Opening Ceremony of the China International Big Data Industry Expo, with a talk titled “Driving World-Class Breakthroughs in Embodied Intelligence.”',
       item21:
-        'Our team swept all gold medals in 3 "hell-mode" scenarios (Household, Catering, Retail) at the 2nd World Humanoid Robot Games — 100% autonomous win rate.',
+        'Our team swept all three gold medals in Home, Catering, and Retail scenarios at the 2nd World Humanoid Robot Games, achieving a 100% win rate with fully autonomous performance.',
       item22:
-        'Main forum talk at WRC 2026: “<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">Driving the Defining Breakthrough Moment for Embodied Intelligence and Humanoid Robots.</a>”',
+        'Invited to speak at the Main Forum of the 2026 World Robot Conference, with a talk titled “<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">Towards Breakthrough Moments in Embodied Intelligence and Humanoid Robotics</a>.”',
     },
     publications: {
       title: 'Selected Publications',
@@ -274,9 +273,9 @@ var I18N_LANG_DATA = {
       slide10:
         'WAM-TTT: The world’s first test-time training framework for embodied foundation models. It enables robots to rapidly adapt to new environments during deployment using only minimal human video demonstrations — eliminating the need for large-scale robot trajectory data or explicit action annotations.',
       slide11:
-        'The world’s first human-machine mixed doubles tennis match was broadcast live, achieving 100 consecutive rally exchanges with zero errors. In an open dynamic physical environment, it realized millisecond-level real-time closed-loop control of perception, decision-making, and full-body motion, validating the high robustness and generalization capabilities of end-to-end large models in complex multi-agent game scenarios.',
+        'The world’s first autonomous humanoid robot tennis rally, achieving oer 100 consecutive shots with zero errors in a live broadcast. In an open and dynamic physical environment, the system demonstrated a real-time closed loop of perception, decision-making, and whole-body motion control, validating the robustness and generalization of end-to-end models in complex agent interaction scenarios.',
       slide12:
-        'Galbot ET1, the world’s first self-learning humanoid robot, is equipped with Galbot’s self-developed physical-world-native intelligent agent, AstraBrain-Agent, enabling it to perceive its environment in real time, comprehend verbal commands, and dynamically plan behaviors and action sequences.',
+        'Galbot ET1, the world’s first humanoid robot with autonomous learning capabilities, is powered by Galbot’s proprietary AstraBrain-Agent, a native agent for the physical world. It can perceive its surroundings in real time, understand language instructions, and dynamically plan its behaviors and action sequences.',
     },
     swiperPhone: {
       slide1:
@@ -301,19 +300,20 @@ var I18N_LANG_DATA = {
         '<a>WAM-TTT: The world’s first test-time training framework for embodied foundation models. It enables robots to rapidly adapt to new environments during deployment using only minimal human video demonstrations — eliminating the need for large-scale robot trajectory data or explicit action annotations.</a>',
       slide11:
         '<a>The world’s first human-machine mixed doubles tennis match was broadcast live, achieving 100 consecutive rally exchanges with zero errors. In an open dynamic physical environment, it realized millisecond-level real-time closed-loop control of perception, decision-making, and full-body motion, validating the high robustness and generalization capabilities of end-to-end large models in complex multi-agent game scenarios.</a>',
-      slide12:
-        '<a>Galbot ET1, the world’s first self-learning humanoid robot, is equipped with Galbot’s self-developed physical-world-native intelligent agent, AstraBrain-Agent, enabling it to perceive its environment in real time, comprehend verbal commands, and dynamically plan behaviors and action sequences.</a>',
+      // slide12:
+      //   '<a>Galbot ET1, the world’s first self-learning humanoid robot, is equipped with Galbot’s self-developed physical-world-native intelligent agent, AstraBrain-Agent, enabling it to perceive its environment in real time, comprehend verbal commands, and dynamically plan behaviors and action sequences.</a>',
     },
     opportunities: {
       title: 'Admissions & Recruitment',
-      subTitle1: 'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2027 intake already full, 2028 intake currently accepting internships.)</span>',
+      subTitle1:
+        'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2027 intake already full, 2028 intake currently accepting internships.)</span>',
       tips: "Our team offer the following doctoral and master's admissions each year:",
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
       li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
-      li8: 'Joint PhD with Galbot: 2 positions (enrolled at PKU)',
-      li4: 'PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position',
-      li7: 'Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position',
+      li8: 'Peking University–Galbot Joint Ph.D. Program: 2 positions',
+      // li4: 'PhD for Hong Kong, Macau, Taiwan, and international students at Peking University: 1 position',
+      // li7: 'Master’s for Hong Kong, Macau, Taiwan, and international students: 1 position',
       p1: 'We also maintain close collaboration with the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, and the Shanghai Qi Zhi Institute, through which many students are recommended to pursue academic or engineering PhDs at institutions such as Tsinghua University and Shanghai Jiao Tong University.',
       p2: 'We welcome outstanding undergraduate and graduate students from top universities worldwide to apply for on-site research internships of at least six months or longer.',
       subTitle2: 'Visiting Students and Research Interns',
