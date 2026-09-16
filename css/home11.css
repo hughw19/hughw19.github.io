@@ -525,7 +525,6 @@ pre {
 }
 .main-selected .selected-item p.red {
   color: #ff0000;
-
 }
 .main-selected .selected-item p b {
   font-family: 'Lato';
@@ -982,7 +981,7 @@ pre p {
     height: 1.8rem;
     border-radius: 0.05rem;
   }
-  .red{
+  .red {
     color: red;
   }
   ::-webkit-scrollbar {
@@ -1124,6 +1123,10 @@ details.publications-toggle[open] .hidden-publications {
     line-height: 24px;
   }
   html[data-lang='zh'] .main-news ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  html[data-lang='zh'] .main-news ul li a {
     font-size: 14px;
     line-height: 25px;
   }
