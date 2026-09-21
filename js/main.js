@@ -54,6 +54,29 @@ function autoPlayVideo() {
   window.addEventListener('resize', controlVideoPlayback);
 }
 
+// Selected Publications 视频：进入视口加载并播放，离开暂停
+// 移动端 .pub-video 是 display:none，不会触发 intersecting，所以不用判断屏幕宽度
+function autoPlaySelectedVideos() {
+  var videos = document.querySelectorAll('.main-selected .pub-video');
+  var observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        var video = entry.target;
+        if (entry.isIntersecting) {
+          if (window.loadVideo) window.loadVideo(video);
+          video.play().catch(function () {});
+        } else {
+          video.pause();
+        }
+      });
+    },
+    { rootMargin: '100px 0px' }
+  );
+  videos.forEach(function (video) {
+    observer.observe(video);
+  });
+}
+
 // bibtex 显示/隐藏
 function hideshow(a, which) {
   if (!document.getElementById) return;
@@ -90,4 +113,5 @@ document.addEventListener('DOMContentLoaded', function () {
   if (window.innerWidth > 768) {
     autoPlayVideo();
   }
+  autoPlaySelectedVideos();
 });
