@@ -64,6 +64,7 @@ var I18N_LANG_DATA = {
       item12: 'RSS 2026 最佳论文候选',
       item13:
         '<a style="font-size:14px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026年央视《2026中国·AI盛典》“年度AI人物”</a>',
+      item14: 'IROS 2026 最佳娱乐与休闲机器人奖',
     },
     teaching: {
       title: '教学',
@@ -229,6 +230,7 @@ var I18N_LANG_DATA = {
       item12: '2026 RSS  Outstanding Paper Award - Finalist',
       item13:
         '<a style="font-size:16px;" href="https://news.cctv.cn/2026/07/19/ARTIkuJod4GNLlmTivWkwE5q260719.shtml" target="_blank">2026 AI Person of the Year, 2026 China AI Gala</a>',
+      item14: 'IROS 2026 Best Entertainment and Amusement Paper Award',
     },
     teaching: {
       title: 'Teaching',
