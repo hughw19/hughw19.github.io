@@ -41,6 +41,7 @@ var I18N_LANG_DATA = {
       item22:
         '受邀在2026世界机器人大会作主论坛报告，主题：“<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">推动具身智能与人形机器人的核心突破时刻</a>”。',
       item23: '入选央视《2026中国·AI盛典》“年度AI人物”。',
+      item24: '荣获IROS 2026 Best Entertainment and Amusement Paper Award。',
     },
     publications: {
       title: 'Selected Publications',
@@ -202,6 +203,8 @@ var I18N_LANG_DATA = {
         'Invited to speak at the Main Forum of the 2026 World Robot Conference, with a talk titled “<a href="https://www.worldrobotconference.com/mainforum/" target="_blank">Towards Breakthrough Moments in Embodied Intelligence and Humanoid Robotics</a>.”',
       item23:
         'Selected as an “AI Figure of the Year” at CCTV’s 2026 China AI Gala.',
+      item24:
+        'Recipient of the IROS 2026 Best Entertainment and Amusement Paper Award.',
     },
     publications: {
       title: 'Selected Publications',
@@ -310,7 +313,7 @@ var I18N_LANG_DATA = {
       title: 'Admissions & Recruitment',
       subTitle1:
         'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2027 intake already full, 2028 intake currently accepting internships.)</span>',
-      tips: "Our team offer the following PhD admissions each year:",
+      tips: 'Our team offer the following PhD admissions each year:',
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
       li3: 'Joint PhD with Zhongguancun Academy (with partner universities including USTC, SJTU, ZJU, etc.): multiple positions',
