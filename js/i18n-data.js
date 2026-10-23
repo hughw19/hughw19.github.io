@@ -314,7 +314,7 @@ var I18N_LANG_DATA = {
     opportunities: {
       title: 'Admissions & Recruitment',
       subTitle1:
-        'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2 Ph.D. positions for Fall 2027; research internships open for 2028 applicants.)</span>',
+        'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2 Ph.D. positions for Fall 2027; Research internships open for 2028 applicants.)</span>',
       tips: 'Our team offer the following PhD admissions each year:',
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
