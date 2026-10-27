@@ -138,7 +138,7 @@ var I18N_LANG_DATA = {
     opportunities: {
       title: '招聘 & 招生机会',
       subTitle1:
-        '硕博招生 <span style="font-size: 16px;font-weight: normal;">（27年普博入学名额2名，28年入学接受实习中）</span>',
+        '硕博招生 <span style="font-size: 16px;font-weight: normal;">（27年入学名额已无，28年入学接受实习）</span>',
       tips: '我们团队每年提供以下博士招生名额：',
       li1: '北京大学计算机学院前沿计算研究中心（CFCS）博士名额：2名；',
       li2: '中科院自动化所联合培养博士：多名；',
@@ -314,7 +314,7 @@ var I18N_LANG_DATA = {
     opportunities: {
       title: 'Admissions & Recruitment',
       subTitle1:
-        'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2 Ph.D. positions for Fall 2027; Research internships open for 2028 applicants.)</span>',
+        'Graduate Admissions <span style="font-size: 16px;font-weight: normal;">(2027 intake already full, 2028 intake currently accepting internships.)</span>',
       tips: 'Our team offer the following PhD admissions each year:',
       li1: 'PhD (CFCS, School of Computer Science, Peking University): 2 positions',
       li2: 'Joint PhD with CAS Institute of Automation: multiple positions',
