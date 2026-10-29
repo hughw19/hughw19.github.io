@@ -21,7 +21,7 @@ var I18N_LANG_DATA = {
       desc1:
         '我是<a href="https://english.pku.edu.cn/">北京大学</a><a href="https://cfcs.pku.edu.cn/english">前沿计算机研究中心（CFCS）</a>助理教授、博士生导师，北京大学博雅青年学者，入选国家级海外高层次人才计划。我创立并领导了<a href="https://pku-epic.github.io/">北大具身感知与交互实验室(EPIC Lab)</a>，旨在通过研发具身泛化技能及具身多模态大模型推进通用机器人的发展。',
       desc2:
-        '同时，我也是<a href="https://www.galbot.com">银河通用（Galbot）</a>的创始人与首席技术官，一家专注于具身智能与通用人形机器人的世界领先独角兽企业；此外，我还兼任<a href="https://www.bza.edu.cn/">北京中关村学院</a>的研究型导师。',
+        '同时，我也是<a href="https://www.galbot.com">银河通用（Galbot）</a>的创始人与首席技术官，一家专注于具身智能与通用人形机器人的世界领先独角兽企业；此外，我还兼任具身智能大模型北京市重点实验室主任、<a href="https://www.bza.edu.cn/">北京中关村学院</a>的研究型导师。',
       desc3: '',
     },
     news: {
@@ -180,7 +180,7 @@ var I18N_LANG_DATA = {
       subtitle3:
         'Research Supervisor of <a href="https://www.bza.edu.cn/">ZGC Academy</a>',
       desc1:
-        'I am a tenure-track Assistant Professor and Boya Young Scholar at<a href="https://cfcs.pku.edu.cn/english"> the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, where I founded and lead <a href="https://pku-epic.github.io/">the Embodied Perception and Interaction Lab (EPIC Lab).</a> My research aims to advance general-purpose robotics by developing generalizable embodied skills and multimodal embodied foundation models. I have been selected for China’s National High-Level Overseas Talent Program.',
+        'I am a tenure-track Assistant Professor and Boya Young Scholar at<a href="https://cfcs.pku.edu.cn/english"> the Center on Frontiers of Computing Studies (CFCS)</a>, <a href="https://english.pku.edu.cn/">Peking University</a>, where I founded and lead <a href="https://pku-epic.github.io/">the Embodied Perception and Interaction Lab (EPIC Lab).</a> My research aims to advance general-purpose robotics by developing generalizable embodied skills and multimodal embodied foundation models.',
       desc2:
         'I am also the founder and CTO of <a href="https://www.galbot.com">Galbot</a>, a world-leading unicorn specializing in embodied AI and general-purpose humanoid robots, and a research mentor at <a href="https://www.bza.edu.cn/">Zhongguancun Academy.</a>',
       desc3: '',
